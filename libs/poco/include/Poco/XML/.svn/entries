@@ -1,0 +1,105 @@
+10
+
+dir
+0
+https://wbcmobileengine.googlecode.com/svn/trunk/libs/poco/include/Poco/XML
+https://wbcmobileengine.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14387624-d554-d652-77bc-175aa7a48e8c
+
+NamePool.h
+file
+
+
+
+add
+
+XMLStream.h
+file
+
+
+
+add
+
+XMLWriter.h
+file
+
+
+
+add
+
+NamespaceStrategy.h
+file
+
+
+
+add
+
+XMLException.h
+file
+
+
+
+add
+
+Name.h
+file
+
+
+
+add
+
+XML.h
+file
+
+
+
+add
+
+expat.h
+file
+
+
+
+add
+
+ParserEngine.h
+file
+
+
+
+add
+
+expat_external.h
+file
+
+
+
+add
+
+XMLString.h
+file
+
+
+
+add
+

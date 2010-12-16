@@ -1,0 +1,315 @@
+10
+
+dir
+0
+https://wbcmobileengine.googlecode.com/svn/trunk/libs/poco/include/Poco/DOM
+https://wbcmobileengine.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14387624-d554-d652-77bc-175aa7a48e8c
+
+Element.h
+file
+
+
+
+add
+
+Notation.h
+file
+
+
+
+add
+
+DOMException.h
+file
+
+
+
+add
+
+EventException.h
+file
+
+
+
+add
+
+ElementsByTagNameList.h
+file
+
+
+
+add
+
+MutationEvent.h
+file
+
+
+
+add
+
+DocumentFragment.h
+file
+
+
+
+add
+
+NodeAppender.h
+file
+
+
+
+add
+
+Attr.h
+file
+
+
+
+add
+
+Document.h
+file
+
+
+
+add
+
+ProcessingInstruction.h
+file
+
+
+
+add
+
+Event.h
+file
+
+
+
+add
+
+NodeList.h
+file
+
+
+
+add
+
+DOMImplementation.h
+file
+
+
+
+add
+
+Node.h
+file
+
+
+
+add
+
+CharacterData.h
+file
+
+
+
+add
+
+DOMBuilder.h
+file
+
+
+
+add
+
+EventTarget.h
+file
+
+
+
+add
+
+EventDispatcher.h
+file
+
+
+
+add
+
+NamedNodeMap.h
+file
+
+
+
+add
+
+EntityReference.h
+file
+
+
+
+add
+
+NodeFilter.h
+file
+
+
+
+add
+
+DOMParser.h
+file
+
+
+
+add
+
+AutoPtr.h
+file
+
+
+
+add
+
+NodeIterator.h
+file
+
+
+
+add
+
+CDATASection.h
+file
+
+
+
+add
+
+Comment.h
+file
+
+
+
+add
+
+TreeWalker.h
+file
+
+
+
+add
+
+DOMObject.h
+file
+
+
+
+add
+
+AttrMap.h
+file
+
+
+
+add
+
+ChildNodesList.h
+file
+
+
+
+add
+
+DTDMap.h
+file
+
+
+
+add
+
+DOMSerializer.h
+file
+
+
+
+add
+
+AbstractNode.h
+file
+
+
+
+add
+
+Entity.h
+file
+
+
+
+add
+
+DOMWriter.h
+file
+
+
+
+add
+
+AbstractContainerNode.h
+file
+
+
+
+add
+
+DocumentEvent.h
+file
+
+
+
+add
+
+DocumentType.h
+file
+
+
+
+add
+
+Text.h
+file
+
+
+
+add
+
+EventListener.h
+file
+
+
+
+add
+

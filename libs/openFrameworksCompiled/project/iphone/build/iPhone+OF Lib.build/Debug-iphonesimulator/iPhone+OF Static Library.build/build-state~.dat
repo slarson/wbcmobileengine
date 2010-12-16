@@ -1,0 +1,1770 @@
+TiPhone+OF Static Library
+v7
+r0
+t307744068.258924
+cCheck dependencies
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxAccelerometer/src/ofxAccelerometer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES1Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES2Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/MSARootViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAccelerometer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneExtras.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundPlayer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundStream.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxMultiTouch/src/ofxMultiTouch.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLibtool "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a" normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C494D260000000000000110
+t1279872294
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c00000000448600480000000000000556
+t1149632584
+s1366
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BD2001C0000000000193D80
+t1272053788
+s1654144
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BD1FFCD0000000000000A22
+t1272053709
+s2594
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BD1D4D20000000000061790
+t1272042706
+s399248
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BD1D4C800000000000001AF
+t1272042696
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004BD1D83E000000000000017D
+t1272043582
+s381
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004BD1D85F0000000000185260
+t1272043615
+s1593952
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004BD1CD18000000000001EEA0
+t1272040728
+s126624
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BD1CF66000000000000094F
+t1272041318
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BD1CF660000000000000A61
+t1272041318
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BD1CF660000000000009369
+t1272041318
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BD1CF660000000000002A42
+t1272041318
+s10818
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004BD1CF6500000000000082AD
+t1272041317
+s33453
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004BD1CF650000000000001617
+t1272041317
+s5655
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BD1CF720000000000021BE0
+t1272041330
+s138208
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004BD1D01E000000000000007D
+t1272041502
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004BD1D06900000000001294B0
+t1272041577
+s1217712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004BD1CFC10000000000001A1A
+t1272041409
+s6682
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/TargetConditionals.h
+c000000004BD1CFC100000000000031E9
+t1272041409
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/errno.h
+c000000004748A13100000000000003EB
+t1195942193
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/inttypes.h
+c000000004748A13100000000000027D1
+t1195942193
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/pthread.h
+c000000004748A133000000000000380F
+t1195942195
+s14351
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/setjmp.h
+c000000004748A1310000000000000438
+t1195942193
+s1080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/select.h
+c00000000476344C000000000000016A2
+t1197688000
+s5794
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/time.h
+c00000000476344C00000000000001E18
+t1197688000
+s7704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/time.h
+c000000004748A133000000000000178E
+t1195942195
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/wchar.h
+c000000004748A13300000000000025DA
+t1195942195
+s9690
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004748AF9500000000000014F4
+t1195945877
+s5364
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004748AF9500000000000010DD
+t1195945877
+s4317
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/freetype/include/freetype2/freetype/config/ftheader.h
+c000000004CA795670000000000005B39
+t1286051175
+s23353
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/freetype/include/freetype2/freetype/freetype.h
+c000000004CA795670000000000032885
+t1286051175
+s206981
+i<ft2build.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/freetype/include/freetype2/freetype/ftglyph.h
+c000000004CA795670000000000008DCF
+t1286051175
+s36303
+i<ft2build.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/freetype/include/freetype2/freetype/ftoutln.h
+c000000004CA795670000000000007B3C
+t1286051175
+s31548
+i<ft2build.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/freetype/include/freetype2/freetype/fttrigon.h
+c000000004CA7956700000000000020FB
+t1286051175
+s8443
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004CA795670000000000000446
+t1286051175
+s1094
+i"ofTypes.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004CA79567000000000000066C
+t1286051175
+s1644
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/app/ofAppRunner.h
+c000000004CA79567000000000000050D
+t1286051175
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/app/ofBaseApp.h
+c000000004CA7956700000000000003E1
+t1286051175
+s993
+i"ofTypes.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/events/ofEventUtils.h
+c000000004CA795670000000000000A8A
+t1286051175
+s2698
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/graphics/ofBitmapFont.h
+c000000004CA795670000000000000206
+t1286051175
+s518
+i"ofConstants.h"
+i"ofTexture.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/graphics/ofGraphics.h
+c000000004CA795670000000000000D63
+t1286051175
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/graphics/ofImage.h
+c000000004CA795670000000000000D09
+t1286051175
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/graphics/ofTexture.h
+c000000004CA795670000000000000C61
+t1286051175
+s3169
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004CA79567000000000000087A
+t1286051175
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004CA7956700000000000018EE
+t1286051175
+s6382
+i"ofTypes.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxMultiTouch/src/ofxMultiTouch.h
+c000000004CA795670000000000000B9D
+t1286051175
+s2973
+i"ofMain.h"
+i"ofxMultiTouchListener.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxMultiTouch/src/ofxMultiTouchListener.h
+c000000004CA795670000000000000BC9
+t1286051175
+s3017
+i"ofEvents.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/ofxiPhone.h
+c000000004CA79567000000000000085A
+t1286051175
+s2138
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxAccelerometer.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/EAGLView.h
+c000000004CA795670000000000000B4B
+t1286051175
+s2891
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+i"ofxiPhone.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ES1Renderer.h
+c000000004CA795670000000000000218
+t1286051175
+s536
+i"ESRenderer.h"
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ES2Renderer.h
+c000000004CA79567000000000000022E
+t1286051175
+s558
+i"ESRenderer.h"
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ESRenderer.h
+c000000004CA79567000000000000018E
+t1286051175
+s398
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/MSARootViewController.h
+c000000004CA795670000000000000A4D
+t1286051175
+s2637
+i<UIKit/UIKit.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004CA795670000000000000CD5
+t1286051175
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.h
+c000000004CA795670000000000000D2A
+t1286051175
+s3370
+i"ofxiPhoneAlertsListener.h"
+i<list>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneAlertsListener.h
+c000000004CA795670000000000000821
+t1286051175
+s2081
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004CA795670000000000000912
+t1286051175
+s2322
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004CA7956700000000000008A6
+t1286051175
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004CA795670000000000000C4C
+t1286051175
+s3148
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004CA795670000000000000583
+t1286051175
+s1411
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.h
+c000000004CA79567000000000000162C
+t1286051175
+s5676
+i<Availability.h>
+i"ofMain.h"
+i<MapKit/MapKit.h>
+i"ofxiPhoneMapKitListener.h"
+i<list>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneMapKitDelegate.h
+c000000004CA79567000000000000096B
+t1286051175
+s2411
+i<Availability.h>
+i<MapKit/MapKit.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/ofxiPhone/src/ofxiPhoneMapKitListener.h
+c000000004CA795670000000000000881
+t1286051175
+s2177
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/utils/ofConstants.h
+c000000004CA795670000000000002A7F
+t1286051175
+s10879
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<stdio.h>
+i<stdarg.h>
+i<math.h>
+i<time.h>
+i<stdlib.h>
+i<string.h>
+i<iostream>
+i<vector>
+i<string>
+i<sstream>
+i<iomanip>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/utils/ofMath.h
+c000000004CA7956700000000000006DB
+t1286051175
+s1755
+i"ofConstants.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/utils/ofNoise.h
+c000000004CA795670000000000004F24
+t1286051175
+s20260
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworks/utils/ofUtils.h
+c000000004CA7956700000000000005A4
+t1286051175
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../FreeImage/include/FreeImage.h
+c000000004CA79563000000000000CC1B
+t1286051171
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../freetype/include/ft2build.h
+c000000004CA795670000000000000F32
+t1286051175
+s3890
+i<freetype/config/ftheader.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../glu/include_iphone/glu.h
+c000000004CA795670000000000001F99
+t1286051175
+s8089
+i<OpenGLES/ES1/gl.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp
+c000000004CA7956700000000000017AA
+t1286051175
+s6058
+i"ofAppRunner.h"
+i"ofAppiPhoneWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/events/ofEvents.h
+c000000004CA795670000000000000E3C
+t1286051175
+s3644
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp
+c000000004CA795670000000000009D17
+t1286051175
+s40215
+i"ofBitmapFont.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp
+c000000004CA7956700000000000081A6
+t1286051175
+s33190
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"ofBitmapFont.h"
+i<OpenGL/glu.h>
+i"glu.h"
+i"GL/glu.h"
+i"glu.h"
+i<vector>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.h
+c000000004CA795670000000000000D63
+t1286051175
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp
+c000000004CA795670000000000003EF2
+t1286051175
+s16114
+i"ofImage.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.h
+c000000004CA795670000000000000D09
+t1286051175
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp
+c000000004CA795670000000000004887
+t1286051175
+s18567
+i"ofTexture.h"
+i"ofUtils.h"
+i"ofAppRunner.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.h
+c000000004CA795670000000000000C61
+t1286051175
+s3169
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+c000000004CA795670000000000006D0E
+t1286051175
+s27918
+i"ofTrueTypeFont.h"
+i<ft2build.h>
+i<freetype/freetype.h>
+i<freetype/ftglyph.h>
+i<freetype/ftoutln.h>
+i<freetype/fttrigon.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.h
+c000000004CA79567000000000000087A
+t1286051175
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofMain.h
+c000000004CA795670000000000000347
+t1286051175
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxAccelerometer/src/ofxAccelerometer.cpp
+c000000004CA79567000000000000075A
+t1286051175
+s1882
+i"ofxAccelerometer.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxMultiTouch/src/ofxMultiTouch.cpp
+c000000004CA795670000000000000A06
+t1286051175
+s2566
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxMultiTouch/src/ofxMultiTouch.h
+c000000004CA795670000000000000B9D
+t1286051175
+s2973
+i"ofMain.h"
+i"ofxMultiTouchListener.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/ofxiPhoneExtras.h
+c000000004CA795670000000000002140
+t1286051175
+s8512
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneAppDelegate.h"
+i"EAGLView.h"
+i"ofxiPhoneKeyboard.h"
+i"ofxiPhoneCoreLocation.h"
+i"ofxiPhoneImagePicker.h"
+i"ofxiPhoneMapKit.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm
+c000000004CA795670000000000002DA4
+t1286051175
+s11684
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+i"EAGLView.h"
+i"ES1Renderer.h"
+i"ES2Renderer.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES1Renderer.mm
+c000000004CA795670000000000000B54
+t1286051175
+s2900
+i"ES1Renderer.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES2Renderer.mm
+c000000004CA795670000000000001DDD
+t1286051175
+s7645
+i"ES2Renderer.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/MSARootViewController.mm
+c000000004CA795670000000000001BC5
+t1286051175
+s7109
+i"MSARootViewController.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004CA795670000000000000CD5
+t1286051175
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm
+c000000004CA795670000000000002D81
+t1286051175
+s11649
+i"ofMain.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAccelerometer.mm
+c000000004CA795670000000000000D44
+t1286051175
+s3396
+i"ofxAccelerometer.h"
+i"ofMain.h"
+i<UIKit/UIKit.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.h
+c000000004CA795670000000000000D2A
+t1286051175
+s3370
+i"ofxiPhoneAlertsListener.h"
+i<list>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.mm
+c000000004CA795670000000000000718
+t1286051175
+s1816
+i"ofxiPhoneAlerts.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneApp.h
+c000000004CA7956700000000000004FE
+t1286051175
+s1278
+i"ofMain.h"
+i"ofEvents.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004CA795670000000000000912
+t1286051175
+s2322
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm
+c000000004CA795670000000000002301
+t1286051175
+s8961
+i"ofxiPhoneAppDelegate.h"
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004CA7956700000000000008A6
+t1286051175
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm
+c000000004CA795670000000000002060
+t1286051175
+s8288
+i"ofxiPhoneCoreLocation.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneExtras.mm
+c000000004CA795670000000000002E5B
+t1286051175
+s11867
+i"ofxiPhoneExtras.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004CA795670000000000000C4C
+t1286051175
+s3148
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.mm
+c000000004CA795670000000000003730
+t1286051175
+s14128
+i"ofxiPhoneImagePicker.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004CA795670000000000000583
+t1286051175
+s1411
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.mm
+c000000004CA795670000000000001C73
+t1286051175
+s7283
+i"ofxiPhoneKeyboard.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.h
+c000000004CA79567000000000000162C
+t1286051175
+s5676
+i<Availability.h>
+i"ofMain.h"
+i<MapKit/MapKit.h>
+i"ofxiPhoneMapKitListener.h"
+i<list>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.mm
+c000000004CA795670000000000001F2A
+t1286051175
+s7978
+i<Availability.h>
+i"ofxiPhoneMapKit.h"
+i"ofxiPhoneExtras.h"
+i"ofxiPhoneMapKitDelegate.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm
+c000000004CA795670000000000000B87
+t1286051175
+s2951
+i<Availability.h>
+i"ofxiPhoneMapKitDelegate.h"
+i"ofxiPhoneMapKit.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundPlayer.mm
+c000000004CA795670000000000001045
+t1286051175
+s4165
+i"ofSoundPlayer.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundStream.mm
+c000000004CA79567000000000000276F
+t1286051175
+s10095
+i"ofMain.h"
+i"ofSoundStream.h"
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i"ofxiPhone.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/sound/ofSoundPlayer.h
+c000000004CA7956700000000000006C3
+t1286051175
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/sound/ofSoundStream.h
+c000000004CA795670000000000000254
+t1286051175
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofConstants.h
+c000000004CA795670000000000002A7F
+t1286051175
+s10879
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<stdio.h>
+i<stdarg.h>
+i<math.h>
+i<time.h>
+i<stdlib.h>
+i<string.h>
+i<iostream>
+i<vector>
+i<string>
+i<sstream>
+i<iomanip>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp
+c000000004CA7956700000000000013C6
+t1286051175
+s5062
+i"ofMath.h"
+i"ofAppRunner.h"
+i"float.h"
+i<sys/time.h>
+i"ofNoise.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.h
+c000000004CA7956700000000000006DB
+t1286051175
+s1755
+i"ofConstants.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofTypes.h
+c000000004CA7956700000000000019FB
+t1286051175
+s6651
+i"ofConstants.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp
+c000000004CA7956700000000000026CC
+t1286051175
+s9932
+i"ofUtils.h"
+i"ofImage.h"
+i"sys/time.h"
+i<mmsystem.h>
+i<direct.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.h
+c000000004CA7956700000000000005A4
+t1286051175
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a
+t1286051268
+s10723592
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o
+t1286051249
+s589608
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o
+t1286051247
+s16116
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o
+t1286051247
+s23884
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o
+t1286051249
+s469540
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o
+t1286051246
+s1666552
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o
+t1286051252
+s673160
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o
+t1286051264
+s91728
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o
+t1286051265
+s514312
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o
+t1286051265
+s358268
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o
+t1286051244
+s340148
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o
+t1286051267
+s344116
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o
+t1286051267
+s307520
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o
+t1286051245
+s429284
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o
+t1286051246
+s56504
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o
+t1286051263
+s428712
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o
+t1286051251
+s327532
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o
+t1286051252
+s56388
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o
+t1286051254
+s672788
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o
+t1286051254
+s348240
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o
+t1286051256
+s463084
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o
+t1286051257
+s390272
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o
+t1286051259
+s450204
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o
+t1286051259
+s483248
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o
+t1286051261
+s335276
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneOFLib_iphonesimulator _Debug.LinkFileList
+c000000004CA795AB00000000000014C9
+t1286051243
+s5321
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o
+t1286051260
+s59920
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o
+t1286051263
+s428260
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/AbstractDelegate.h
+c000000004CA7956F0000000000000B2E
+t1286051183
+s2862
+i"Poco/Foundation.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/AbstractEvent.h
+c000000004CA7956F0000000000002C6A
+t1286051183
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/ActiveMethod.h
+c000000004CA7956F0000000000001C64
+t1286051183
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/ActiveResult.h
+c000000004CA7956F0000000000002E66
+t1286051183
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/ActiveRunnable.h
+c000000004CA7956F0000000000001785
+t1286051183
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/ActiveStarter.h
+c000000004CA7956F0000000000000927
+t1286051183
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/AutoPtr.h
+c000000004CA7956F0000000000001E0C
+t1286051183
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Bugcheck.h
+c000000004CA7956F00000000000012FE
+t1286051183
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/CompareFunctions.h
+c000000004CA7956F00000000000007EC
+t1286051183
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Config.h
+c000000004CA7956F00000000000008B5
+t1286051183
+s2229
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Delegate.h
+c000000004CA7956F0000000000001802
+t1286051183
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Event.h
+c000000004CA7956F0000000000000E21
+t1286051183
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Event_POSIX.h
+c000000004CA7956F0000000000000A91
+t1286051183
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Event_WIN32.h
+c000000004CA7956F0000000000000947
+t1286051183
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Exception.h
+c000000004CA7956F00000000000026AC
+t1286051183
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Expire.h
+c000000004CA7956F0000000000000CF1
+t1286051183
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/FIFOEvent.h
+c000000004CA7956F0000000000000AD4
+t1286051183
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/FIFOStrategy.h
+c000000004CA7956F00000000000010F3
+t1286051183
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Foundation.h
+c000000004CA795700000000000001023
+t1286051184
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/FunctionDelegate.h
+c000000004CA7957000000000000013CA
+t1286051184
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Mutex.h
+c000000004CA795700000000000001A61
+t1286051184
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004CA795700000000000000AC3
+t1286051184
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004CA795700000000000000A07
+t1286051184
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/NotificationStrategy.h
+c000000004CA795700000000000000A37
+t1286051184
+s2615
+i"Poco/Foundation.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Platform.h
+c000000004CA795700000000000001A3A
+t1286051184
+s6714
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Platform_POSIX.h
+c000000004CA795700000000000000843
+t1286051184
+s2115
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Platform_VMS.h
+c000000004CA795700000000000000BAA
+t1286051184
+s2986
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Platform_WIN32.h
+c000000004CA795700000000000000D4D
+t1286051184
+s3405
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/RefCountedObject.h
+c000000004CA795700000000000000B10
+t1286051184
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Runnable.h
+c000000004CA795700000000000000861
+t1286051184
+s2145
+i"Poco/Foundation.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/ScopedLock.h
+c000000004CA7957000000000000008EB
+t1286051184
+s2283
+i"Poco/Foundation.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/SharedPtr.h
+c000000004CA7957000000000000021DE
+t1286051184
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/SignalHandler.h
+c000000004CA7957000000000000011EB
+t1286051184
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/SingletonHolder.h
+c000000004CA795700000000000000A64
+t1286051184
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Thread.h
+c000000004CA795700000000000001C3A
+t1286051184
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/ThreadPool.h
+c000000004CA795700000000000001849
+t1286051184
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Thread_POSIX.h
+c000000004CA7957000000000000012A8
+t1286051184
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Thread_WIN32.h
+c000000004CA79570000000000000106C
+t1286051184
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Timestamp.h
+c000000004CA7957000000000000019A7
+t1286051184
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/Types.h
+c000000004CA795700000000000001910
+t1286051184
+s6416
+i"Poco/Foundation.h"
+
+N/Users/stonerri/Code/wbcmobileengine-october/libs/poco/include/Poco/UnWindows.h
+c000000004CA795700000000000000FD1
+t1286051184
+s4049
+i<windows.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307744042#307744043#0(0"0(0#1#0"8613499840#0"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744046.462234
+e307744049.331847
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@145"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm307744046#307744049#0(0"0(0#0#137"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm8614996128#1999"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES1Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744046.549417
+e307744047.150329
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES1Renderer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@148"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES1Renderer.mm307744046#307744047#0(0"0(0#0#140"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES1Renderer.mm8614256928#2005"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES1Renderer.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES2Renderer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744047.150471
+e307744047.612089
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES2Renderer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@148"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES2Renderer.mm307744047#307744047#0(0"0(0#0#140"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES2Renderer.mm8613802016#2005"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ES2Renderer.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/MSARootViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744047.612290
+e307744049.902964
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/MSARootViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@158"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/MSARootViewController.mm307744047#307744049#0(0"0(0#0#150"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/MSARootViewController.mm8612294560#2025"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/MSARootViewController.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744043.457787
+e307744046.462098
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@139"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp307744043#307744046#0(0"0(0#0#131"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp8613923872#1942"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744049.332931
+e307744052.367113
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm: In member function 'virtual void ofAppiPhoneWindow::setFullscreen(bool)':
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm:211: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)
+lSLF07#2@154"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm307744049#307744052#0(596"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm: In member function 'virtual void ofAppiPhoneWindow::setFullscreen(bool)':/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm:211: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)1(22@212"'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)307744051#222#374#0(6@146"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm307743975#211#0#211#0#33"'*' is deprecated (declared at *)0(0#0#146"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm8612003648#2017"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofAppiPhoneWindow.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744063.121098
+e307744064.110244
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@145"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp307744063#307744064#0(0"0(0#0#137"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp8612463744#1949"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744063.551969
+e307744065.797902
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp: In function 'void ofDrawBitmapString(std::string, float, float)':
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp:676: warning: unused variable 'yOffset'
+lSLF07#2@143"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp307744063#307744065#0(379"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp: In function 'void ofDrawBitmapString(std::string, float, float)':/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp:676: warning: unused variable 'yOffset'1(22@25"Unused variable 'yOffset'307744064#203#176#0(6@135"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp307743975#676#0#676#0#19"unused variable '*'0(0#0#135"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp8611166016#1945"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744064.110416
+e307744065.750367
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@140"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp307744064#307744065#0(0"0(0#0#132"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp8613884608#1939"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744043.463502
+e307744044.702638
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@136"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp307744043#307744044#0(0"0(0#0#128"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp8613773376#1934"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744065.750652
+e307744067.514449
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@142"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp307744065#307744067#0(0"0(0#0#134"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp8610088320#1943"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744065.798071
+e307744067.601550
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@147"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp307744065#307744067#0(0"0(0#0#139"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp8594864352#1953"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744044.702755
+e307744045.888052
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@137"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp307744044#307744045#0(0"0(0#0#129"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp8615165344#1936"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxAccelerometer/src/ofxAccelerometer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744045.888262
+e307744046.549282
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxAccelerometer/src/ofxAccelerometer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@161"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxAccelerometer/src/ofxAccelerometer.cpp307744045#307744046#0(0"0(0#0#153"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxAccelerometer/src/ofxAccelerometer.cpp8613553344#1969"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxAccelerometer/src/ofxAccelerometer.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxMultiTouch/src/ofxMultiTouch.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307744061.909651
+e307744063.551716
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxMultiTouch/src/ofxMultiTouch.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@155"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxMultiTouch/src/ofxMultiTouch.cpp307744061#307744063#0(0"0(0#0#147"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxMultiTouch/src/ofxMultiTouch.cpp8613799040#1960"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxMultiTouch/src/ofxMultiTouch.cpp -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAccelerometer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744049.903120
+e307744051.800139
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAccelerometer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@159"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAccelerometer.mm307744049#307744051#0(0"0(0#0#151"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAccelerometer.mm8613747104#2027"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAccelerometer.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744051.800647
+e307744052.148623
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.mm307744051#307744052#0(0"0(0#0#144"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.mm8612466624#2013"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAlerts.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744052.148793
+e307744054.645745
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm: In function 'void -[ofxiPhoneAppDelegate applicationDidFinishLaunching:](ofxiPhoneAppDelegate*, objc_selector*, UIApplication*)':
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm:134: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm:114: warning: unused variable 'reqSysVer'
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm:115: warning: unused variable 'currSysVer'
+lSLF07#2@157"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm307744052#307744054#0(1043"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm: In function 'void -[ofxiPhoneAppDelegate applicationDidFinishLaunching:](ofxiPhoneAppDelegate*, objc_selector*, UIApplication*)':/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm:134: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm:114: warning: unused variable 'reqSysVer'/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm:115: warning: unused variable 'currSysVer'3(22@212"'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)307744053#281#377#0(6@149"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm307743975#134#0#134#0#33"'*' is deprecated (declared at *)0(22@27"Unused variable 'reqSysVer'307744053#658#192#0(6@149"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm307743975#114#0#114#0#19"unused variable '*'0(22@28"Unused variable 'currSysVer'307744053#850#193#0(6@149"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm307743975#115#0#115#0#19"unused variable '*'0(0#0#149"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm8610698976#2023"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneAppDelegate.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744052.367282
+e307744054.230572
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm: In function 'void -[ofxiPhoneCoreLocationDelegate locationManager:didUpdateToLocation:fromLocation:](ofxiPhoneCoreLocationDelegate*, objc_selector*, CLLocationManager*, CLLocation*, CLLocation*)':
+o/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm:238: warning: 'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:204)
+lSLF07#2@158"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm307744052#307744054#0(719"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm: In function 'void -[ofxiPhoneCoreLocationDelegate locationManager:didUpdateToLocation:fromLocation:](ofxiPhoneCoreLocationDelegate*, objc_selector*, CLLocationManager*, CLLocation*, CLLocation*)':/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm:238: warning: 'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:204)1(22@204"'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:204)307744053#349#370#0(6@150"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm307743975#238#0#238#0#33"'*' is deprecated (declared at *)0(0#0#150"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm8613137664#2025"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneCoreLocation.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneExtras.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744054.230870
+e307744056.672426
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneExtras.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneExtras.mm307744054#307744056#0(0"0(0#0#144"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneExtras.mm8612547552#2013"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneExtras.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744054.645925
+e307744057.036904
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@157"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.mm307744054#307744057#0(0"0(0#0#149"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.mm8611920384#2023"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneImagePicker.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744056.672902
+e307744059.618964
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@154"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.mm307744056#307744059#0(0"0(0#0#146"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.mm8594864928#2017"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneKeyboard.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744057.037078
+e307744059.818005
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.mm307744057#307744059#0(0"0(0#0#144"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.mm8614145376#2013"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKit.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744059.619198
+e307744061.909407
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@160"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm307744059#307744061#0(0"0(0#0#152"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm8614799168#2029"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundPlayer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744059.818165
+e307744060.734219
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundPlayer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@157"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundPlayer.mm307744059#307744060#0(0"0(0#0#149"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundPlayer.mm8615384608#2023"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundPlayer.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o" /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundStream.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s307744060.734433
+e307744063.120944
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundStream.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@157"Compile /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundStream.mm307744060#307744063#0(0"0(0#0#149"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundStream.mm8614931424#2023"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/ofxiPhoneSoundStream.mm -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o"0#
+
+CLibtool "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a" normal i386
+s307744067.601715
+e307744068.258841
+r1
+xLibtool
+x/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a
+xnormal
+xi386
+lSLF07#2@82"Libtool "../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a" normal i386307744067#307744068#0(0"0(0#0#0"8612846112#1574"    cd /Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -L"/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../../libs/glu/lib/iphone" -L/Developer/openFrameworks/libs/poco/lib/linux -L/Developer/openFrameworks/libs/poco/lib/linux64 -L/Developer/openFrameworks/libs/poco/lib/osx -L/Developer/openFrameworks/libs/poco/lib/vs2008 -L/Developer/openFrameworks/libs/poco/lib/win_cb -L/Developer/openFrameworks/libs/poco/lib/armv6 -filelist "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/Debug-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneOFLib_iphonesimulator _Debug.LinkFileList" -framework AudioToolbox -framework OpenGLES -framework UIKit -framework OpenAL -framework Foundation -framework CoreGraphics -framework CoreLocation -framework QuartzCore -framework MapKit -o "/Users/stonerri/Code/wbcmobileengine-october/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a"0#
+

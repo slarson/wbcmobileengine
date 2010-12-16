@@ -1,0 +1,224 @@
+10
+
+dir
+0
+https://wbcmobileengine.googlecode.com/svn/trunk/libs/poco/include/Poco/Util
+https://wbcmobileengine.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14387624-d554-d652-77bc-175aa7a48e8c
+
+ServerApplication.h
+file
+
+
+
+add
+
+AbstractConfiguration.h
+file
+
+
+
+add
+
+Subsystem.h
+file
+
+
+
+add
+
+WinRegistryKey.h
+file
+
+
+
+add
+
+IntValidator.h
+file
+
+
+
+add
+
+RegExpValidator.h
+file
+
+
+
+add
+
+ConfigurationView.h
+file
+
+
+
+add
+
+Application.h
+file
+
+
+
+add
+
+MapConfiguration.h
+file
+
+
+
+add
+
+LoggingSubsystem.h
+file
+
+
+
+add
+
+IniFileConfiguration.h
+file
+
+
+
+add
+
+Option.h
+file
+
+
+
+add
+
+OptionProcessor.h
+file
+
+
+
+add
+
+LoggingConfigurator.h
+file
+
+
+
+add
+
+HelpFormatter.h
+file
+
+
+
+add
+
+FilesystemConfiguration.h
+file
+
+
+
+add
+
+ConfigurationMapper.h
+file
+
+
+
+add
+
+PropertyFileConfiguration.h
+file
+
+
+
+add
+
+SystemConfiguration.h
+file
+
+
+
+add
+
+LayeredConfiguration.h
+file
+
+
+
+add
+
+Util.h
+file
+
+
+
+add
+
+WinRegistryConfiguration.h
+file
+
+
+
+add
+
+WinService.h
+file
+
+
+
+add
+
+OptionSet.h
+file
+
+
+
+add
+
+OptionCallback.h
+file
+
+
+
+add
+
+Validator.h
+file
+
+
+
+add
+
+OptionException.h
+file
+
+
+
+add
+
+XMLConfiguration.h
+file
+
+
+
+add
+

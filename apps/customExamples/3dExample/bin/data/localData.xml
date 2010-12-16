@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<site>
+	<title>MP_23_rec</title>
+	<displayName>Cerebellar Cortex Triple Labeled</displayName>
+	<parameterID>1</parameterID>
+	<attribution>Tom Deerinck</attribution>
+	<species>Rattus Norvegicus</species>
+	<site>CCDB</site>
+	<url address="http://ccdb-portal.crbs.ucsd.edu:8081/ZoomifyDataServer/data/MP_23_rec/"/>
+	<websiteURL address="http://ccdb.ucsd.edu/sand/main?mpid=23&event=displayRecon"/>
+	<siteFormat>0</siteFormat>
+	<IMAGE_PROPERTIES WIDTH="18701" HEIGHT="17360" NUMTILES="6742" NUMIMAGES="1" VERSION="1.8" TILESIZE="256" />	
+	<localThumbnail>MP_23_rec_0-0-0.jpg</localThumbnail>
+	<traces>
+		<trace length="150" name="Photooxidized medium spiny neuro..." >
+			<point x="5482" y="7443" z="0" />
+			<point x="5480" y="7442" z="0" />
+			<point x="5479" y="7440" z="0" />
+			<point x="5477" y="7438" z="0" />
+			<point x="5473" y="7435" z="0" />
+			<point x="5467" y="7432" z="0" />
+			<point x="5458" y="7428" z="0" />
+			<point x="5449" y="7424" z="0" />
+			<point x="5440" y="7420" z="0" />
+			<point x="5429" y="7415" z="0" />
+			<point x="5418" y="7410" z="0" />
+			<point x="5409" y="7406" z="0" />
+			<point x="5401" y="7402" z="0" />
+			<point x="5392" y="7399" z="0" />
+			<point x="5383" y="7397" z="0" />
+			<point x="5375" y="7396" z="0" />
+			<point x="5364" y="7394" z="0" />
+			<point x="5356" y="7393" z="0" />
+			<point x="5347" y="7393" z="0" />
+			<point x="5340" y="7393" z="0" />
+			<point x="5332" y="7394" z="0" />
+			<point x="5325" y="7396" z="0" />
+			<point x="5318" y="7398" z="0" />
+			<point x="5312" y="7401" z="0" />
+			<point x="5306" y="7404" z="0" />
+			<point x="5300" y="7407" z="0" />
+			<point x="5294" y="7410" z="0" />
+			<point x="5290" y="7414" z="0" />
+			<point x="5284" y="7419" z="0" />
+			<point x="5279" y="7423" z="0" />
+			<point x="5275" y="7429" z="0" />
+			<point x="5270" y="7434" z="0" />
+			<point x="5266" y="7440" z="0" />
+			<point x="5262" y="7446" z="0" />
+			<point x="5260" y="7451" z="0" />
+			<point x="5259" y="7455" z="0" />
+			<point x="5259" y="7458" z="0" />
+			<point x="5258" y="7462" z="0" />
+			<point x="5258" y="7467" z="0" />
+			<point x="5258" y="7471" z="0" />
+			<point x="5258" y="7475" z="0" />
+			<point x="5259" y="7478" z="0" />
+			<point x="5259" y="7480" z="0" />
+			<point x="5259" y="7481" z="0" />
+			<point x="5259" y="7483" z="0" />
+			<point x="5260" y="7486" z="0" />
+			<point x="5261" y="7491" z="0" />
+			<point x="5261" y="7497" z="0" />
+			<point x="5262" y="7502" z="0" />
+			<point x="5264" y="7508" z="0" />
+			<point x="5266" y="7514" z="0" />
+			<point x="5268" y="7520" z="0" />
+			<point x="5270" y="7524" z="0" />
+			<point x="5271" y="7527" z="0" />
+			<point x="5271" y="7530" z="0" />
+			<point x="5273" y="7534" z="0" />
+			<point x="5276" y="7539" z="0" />
+			<point x="5280" y="7546" z="0" />
+			<point x="5287" y="7557" z="0" />
+			<point x="5290" y="7561" z="0" />
+			<point x="5293" y="7565" z="0" />
+			<point x="5296" y="7569" z="0" />
+			<point x="5300" y="7575" z="0" />
+			<point x="5306" y="7581" z="0" />
+			<point x="5312" y="7586" z="0" />
+			<point x="5316" y="7591" z="0" />
+			<point x="5320" y="7594" z="0" />
+			<point x="5324" y="7598" z="0" />
+			<point x="5330" y="7603" z="0" />
+			<point x="5338" y="7609" z="0" />
+			<point x="5344" y="7614" z="0" />
+			<point x="5351" y="7617" z="0" />
+			<point x="5356" y="7620" z="0" />
+			<point x="5360" y="7623" z="0" />
+			<point x="5366" y="7625" z="0" />
+			<point x="5373" y="7629" z="0" />
+			<point x="5380" y="7632" z="0" />
+			<point x="5388" y="7635" z="0" />
+			<point x="5396" y="7638" z="0" />
+			<point x="5406" y="7640" z="0" />
+			<point x="5415" y="7642" z="0" />
+			<point x="5424" y="7643" z="0" />
+			<point x="5431" y="7644" z="0" />
+			<point x="5437" y="7644" z="0" />
+			<point x="5445" y="7646" z="0" />
+			<point x="5451" y="7646" z="0" />
+			<point x="5457" y="7647" z="0" />
+			<point x="5463" y="7647" z="0" />
+			<point x="5468" y="7647" z="0" />
+			<point x="5474" y="7646" z="0" />
+			<point x="5477" y="7645" z="0" />
+			<point x="5482" y="7643" z="0" />
+			<point x="5485" y="7641" z="0" />
+			<point x="5489" y="7638" z="0" />
+			<point x="5493" y="7634" z="0" />
+			<point x="5497" y="7629" z="0" />
+			<point x="5501" y="7623" z="0" />
+			<point x="5504" y="7618" z="0" />
+			<point x="5508" y="7612" z="0" />
+			<point x="5510" y="7609" z="0" />
+			<point x="5512" y="7604" z="0" />
+			<point x="5513" y="7600" z="0" />
+			<point x="5515" y="7597" z="0" />
+			<point x="5517" y="7594" z="0" />
+			<point x="5519" y="7589" z="0" />
+			<point x="5520" y="7585" z="0" />
+			<point x="5520" y="7580" z="0" />
+			<point x="5521" y="7572" z="0" />
+			<point x="5521" y="7565" z="0" />
+			<point x="5521" y="7558" z="0" />
+			<point x="5521" y="7553" z="0" />
+			<point x="5521" y="7547" z="0" />
+			<point x="5520" y="7540" z="0" />
+			<point x="5519" y="7533" z="0" />
+			<point x="5516" y="7526" z="0" />
+			<point x="5514" y="7521" z="0" />
+			<point x="5512" y="7516" z="0" />
+			<point x="5510" y="7512" z="0" />
+			<point x="5508" y="7509" z="0" />
+			<point x="5507" y="7505" z="0" />
+			<point x="5506" y="7501" z="0" />
+			<point x="5505" y="7496" z="0" />
+			<point x="5503" y="7491" z="0" />
+			<point x="5503" y="7489" z="0" />
+			<point x="5503" y="7487" z="0" />
+			<point x="5502" y="7484" z="0" />
+			<point x="5501" y="7479" z="0" />
+			<point x="5500" y="7475" z="0" />
+			<point x="5498" y="7470" z="0" />
+			<point x="5497" y="7468" z="0" />
+			<point x="5497" y="7467" z="0" />
+			<point x="5497" y="7465" z="0" />
+			<point x="5497" y="7463" z="0" />
+			<point x="5497" y="7462" z="0" />
+			<point x="5497" y="7461" z="0" />
+			<point x="5497" y="7460" z="0" />
+			<point x="5496" y="7458" z="0" />
+			<point x="5495" y="7456" z="0" />
+			<point x="5494" y="7455" z="0" />
+			<point x="5493" y="7453" z="0" />
+			<point x="5492" y="7450" z="0" />
+			<point x="5490" y="7448" z="0" />
+			<point x="5488" y="7446" z="0" />
+			<point x="5487" y="7444" z="0" />
+			<point x="5485" y="7444" z="0" />
+			<point x="5484" y="7443" z="0" />
+			<point x="5484" y="7442" z="0" />
+			<point x="5483" y="7442" z="0" />
+			<point x="5483" y="7442" z="0" />
+			<point x="5482" y="7443" z="0" />
+		</trace>
+	</traces>
+</site>
+<site>
+	<title>MP_25_rec</title>
+	<displayName>Cerebellar Cortex Triple Labeled</displayName>
+	<parameterID>1</parameterID>
+	<attribution>Tom Deerinck</attribution>
+	<species>Rattus Norvegicus</species>
+	<site>CCDB</site>
+	<parameterID>1</parameterID>
+	<url address="http://ccdb-portal.crbs.ucsd.edu:8081/ZoomifyDataServer/data/MP_25_rec/"/>
+	<websiteURL address="http://ccdb.ucsd.edu/sand/main?mpid=25&event=displayRecon"/>
+	<siteFormat>0</siteFormat>
+	<IMAGE_PROPERTIES WIDTH="8704" HEIGHT="6048" NUMTILES="1098" NUMIMAGES="1" VERSION="1.8" TILESIZE="256" />
+	<localThumbnail>MP_25_rec_0-0-0.jpg</localThumbnail>
+</site>
+<site>
+	<title>Cerebellum8x6</title>
+	<displayName>3View Mouse Neuropil</displayName>
+	<attribution>Eric Bushong</attribution>
+	<species>Mus Musculus</species>
+	<site>CCDB</site>
+	<parameterID>1</parameterID>
+	<url address="http://ccdb.ucsd.edu/ccdbdata/ncmir_data/8246/cereb8x6_RAW_1285098115464/" />
+	<websiteURL address="http://ccdb.ucsd.edu/sand/main?mpid=25&event=displayRecon"/>
+	<siteFormat>0</siteFormat>
+	<IMAGE_PROPERTIES WIDTH="5988" HEIGHT="3984" NUMTILES="513" NUMIMAGES="1" VERSION="1.8" TILESIZE="256" />	<localThumbnail>cere8x6_0-0-0.jpg</localThumbnail>
+</site>
+<site>
+	<title>MP3937_img</title>
+	<displayName>Fruitfly DL1 cell</displayName>
+	<attribution>Ellisman, Sosinsky, Jones</attribution>
+	<species>Drosophila melanogaster</species>
+	<site>CCDB</site>	
+	<parameterID>0</parameterID>
+	<url address="http://ccdb-portal.crbs.ucsd.edu:8081/ZoomifyDataServer/data/MP3937_img/"/>
+	<websiteURL address="http://ccdb-portal.crbs.ucsd.edu:8081/ZoomifyDataServer/data/MP3937_img"/>
+	<siteFormat>0</siteFormat>
+	<IMAGE_PROPERTIES WIDTH="8964" HEIGHT="13356" NUMTILES="2572" NUMIMAGES="1" VERSION="1.8" TILESIZE="256" />
+	<localThumbnail>MP3937_img_0-0-0.jpg</localThumbnail>
+</site>
+<site>
+	<title>ABA Reference: Sagittal Annotated</title>
+	<displayName>Mouse Reference Atlas: Sagittal</displayName>	
+	<attribution>Allen Institute</attribution>
+	<species>Mus Musculus</species>
+	<site>brain-map.org</site>
+	<parameterID>0</parameterID>
+	<url address="http://mouse.brain-map.org/pyramid/production1/SRGEReferenceAtlas/Sagittal_Annotated/Zoomify/Atlas-Sagittal-28-A.aff/"/>
+	<websiteURL address="http://www.brain-map.org"/>
+	<siteFormat>0</siteFormat>
+	<IMAGE_PROPERTIES WIDTH="7561" HEIGHT="4418" NUMTILES="732" NUMIMAGES="1" VERSION="1.8" TILESIZE="256" />
+	<localThumbnail>ABAsag_0-0-0.jpg</localThumbnail>
+</site>
+<site>
+	<title>ABA Reference: Coronal Annotated</title>
+	<displayName>Mouse Reference Atlas: Coronal</displayName>
+	<attribution>Allen Institute</attribution>
+	<species>Mus Musculus</species>
+	<site>brain-map.org</site>		
+	<parameterID>0</parameterID>
+	<url address="http://mouse.brain-map.org/pyramid/production1/SRGEReferenceAtlas/Coronal_Annotated/Zoomify/Atlas-Coronal-227.aff/"/>
+	<websiteURL address="http://www.brain-map.org"/>
+	<siteFormat>0</siteFormat>
+	<IMAGE_PROPERTIES WIDTH="5690" HEIGHT="4418" NUMTILES="566" NUMIMAGES="1" VERSION="1.8" TILESIZE="256" />
+	<localThumbnail>ABAcoronal_0-0-0.jpg</localThumbnail>
+</site>
+<site>
+	<title>ABA RORB ISH</title>
+	<displayName>Mouse RORB ISH Marker</displayName>
+	<attribution>Allen Institute</attribution>
+	<species>Mus Musculus</species>
+	<site>brain-map.org</site>	
+	<parameterID>0</parameterID>
+	<url address="http://mouse.brain-map.org/pyramid/production25/stitch1/0302091557/0302091557_2_zoom.aff/" />
+	<websiteURL address="http://www.brain-map.org"/>
+	<siteFormat>0</siteFormat>
+	<IMAGE_PROPERTIES WIDTH="10273" HEIGHT="7649" NUMTILES="1666" NUMIMAGES="1" VERSION="1.8" TILESIZE="256" />
+	<localThumbnail>ABARORBISH_0-0-0.jpg</localThumbnail>
+</site>
+<site>
+	<title>ABA Dev ISH</title>
+	<displayName>Developing Mouse</displayName>
+	<attribution>Allen Institute</attribution>
+	<species>Mus Musculus</species>
+	<site>brain-map.org</site>		
+	<parameterID>0</parameterID>
+	<url address="http://developingmouse.brain-map.org/cgi-bin/imageservice/imagepyramid/external/devmouse/prod10/0535017122/0535017122.aff/" />
+	<websiteURL address="http://www.brain-map.org"/>
+	<siteFormat>0</siteFormat>
+	<IMAGE_PROPERTIES WIDTH="50976" HEIGHT="20080" NUMTILES="21147" NUMTIERS="9" NUMIMAGES="1" VERSION="1.8" TILESIZE="256" />	
+	<localThumbnail>ABADevISH_0-0-0.jpg</localThumbnail>
+</site>
+

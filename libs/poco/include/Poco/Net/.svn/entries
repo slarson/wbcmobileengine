@@ -1,0 +1,651 @@
+10
+
+dir
+0
+https://wbcmobileengine.googlecode.com/svn/trunk/libs/poco/include/Poco/Net
+https://wbcmobileengine.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14387624-d554-d652-77bc-175aa7a48e8c
+
+DatagramSocket.h
+file
+
+
+
+add
+
+HTTPStream.h
+file
+
+
+
+add
+
+FTPClientSession.h
+file
+
+
+
+add
+
+TCPServerConnection.h
+file
+
+
+
+add
+
+MailStream.h
+file
+
+
+
+add
+
+HTTPResponse.h
+file
+
+
+
+add
+
+HTTPBasicCredentials.h
+file
+
+
+
+add
+
+SocketNotification.h
+file
+
+
+
+add
+
+QuotedPrintableEncoder.h
+file
+
+
+
+add
+
+SocketStream.h
+file
+
+
+
+add
+
+HTTPServer.h
+file
+
+
+
+add
+
+AbstractHTTPRequestHandler.h
+file
+
+
+
+add
+
+SocketImpl.h
+file
+
+
+
+add
+
+HTTPSessionFactory.h
+file
+
+
+
+add
+
+TCPServer.h
+file
+
+
+
+add
+
+MultipartWriter.h
+file
+
+
+
+add
+
+IPAddress.h
+file
+
+
+
+add
+
+ServerSocket.h
+file
+
+
+
+add
+
+ICMPPacket.h
+file
+
+
+
+add
+
+MediaType.h
+file
+
+
+
+add
+
+TCPServerParams.h
+file
+
+
+
+add
+
+HTTPClientSession.h
+file
+
+
+
+add
+
+HTTPSession.h
+file
+
+
+
+add
+
+MailMessage.h
+file
+
+
+
+add
+
+ICMPClient.h
+file
+
+
+
+add
+
+QuotedPrintableDecoder.h
+file
+
+
+
+add
+
+HTTPChunkedStream.h
+file
+
+
+
+add
+
+SocketAddress.h
+file
+
+
+
+add
+
+HTTPServerRequestImpl.h
+file
+
+
+
+add
+
+RawSocket.h
+file
+
+
+
+add
+
+RemoteSyslogListener.h
+file
+
+
+
+add
+
+NetException.h
+file
+
+
+
+add
+
+HTTPServerResponseImpl.h
+file
+
+
+
+add
+
+SocketReactor.h
+file
+
+
+
+add
+
+SocketAcceptor.h
+file
+
+
+
+add
+
+HTTPServerSession.h
+file
+
+
+
+add
+
+DatagramSocketImpl.h
+file
+
+
+
+add
+
+MulticastSocket.h
+file
+
+
+
+add
+
+HTTPIOStream.h
+file
+
+
+
+add
+
+DNS.h
+file
+
+
+
+add
+
+HTTPMessage.h
+file
+
+
+
+add
+
+MailRecipient.h
+file
+
+
+
+add
+
+RemoteSyslogChannel.h
+file
+
+
+
+add
+
+TCPServerConnectionFactory.h
+file
+
+
+
+add
+
+HTTPRequestHandler.h
+file
+
+
+
+add
+
+HTTPServerConnection.h
+file
+
+
+
+add
+
+PartSource.h
+file
+
+
+
+add
+
+FilePartSource.h
+file
+
+
+
+add
+
+HTMLForm.h
+file
+
+
+
+add
+
+SocketNotifier.h
+file
+
+
+
+add
+
+NameValueCollection.h
+file
+
+
+
+add
+
+MessageHeader.h
+file
+
+
+
+add
+
+NullPartHandler.h
+file
+
+
+
+add
+
+ICMPSocket.h
+file
+
+
+
+add
+
+ServerSocketImpl.h
+file
+
+
+
+add
+
+ICMPPacketImpl.h
+file
+
+
+
+add
+
+SocketConnector.h
+file
+
+
+
+add
+
+PartHandler.h
+file
+
+
+
+add
+
+MultipartReader.h
+file
+
+
+
+add
+
+HTTPHeaderStream.h
+file
+
+
+
+add
+
+StreamSocket.h
+file
+
+
+
+add
+
+HTTPCookie.h
+file
+
+
+
+add
+
+NetworkInterface.h
+file
+
+
+
+add
+
+HTTPBufferAllocator.h
+file
+
+
+
+add
+
+HTTPServerParams.h
+file
+
+
+
+add
+
+HTTPFixedLengthStream.h
+file
+
+
+
+add
+
+HTTPRequestHandlerFactory.h
+file
+
+
+
+add
+
+HTTPServerConnectionFactory.h
+file
+
+
+
+add
+
+StringPartSource.h
+file
+
+
+
+add
+
+RawSocketImpl.h
+file
+
+
+
+add
+
+TCPServerDispatcher.h
+file
+
+
+
+add
+
+Net.h
+file
+
+
+
+add
+
+HTTPRequest.h
+file
+
+
+
+add
+
+Socket.h
+file
+
+
+
+add
+
+HTTPBasicStreamBuf.h
+file
+
+
+
+add
+
+SocketDefs.h
+file
+
+
+
+add
+
+FTPStreamFactory.h
+file
+
+
+
+add
+
+HostEntry.h
+file
+
+
+
+add
+
+ICMPEventArgs.h
+file
+
+
+
+add
+
+DialogSocket.h
+file
+
+
+
+add
+
+ICMPv4PacketImpl.h
+file
+
+
+
+add
+
+HTTPServerRequest.h
+file
+
+
+
+add
+
+ICMPSocketImpl.h
+file
+
+
+
+add
+
+HTTPStreamFactory.h
+file
+
+
+
+add
+
+HTTPSessionInstantiator.h
+file
+
+
+
+add
+
+POP3ClientSession.h
+file
+
+
+
+add
+
+HTTPServerResponse.h
+file
+
+
+
+add
+
+SMTPClientSession.h
+file
+
+
+
+add
+
+StreamSocketImpl.h
+file
+
+
+
+add
+

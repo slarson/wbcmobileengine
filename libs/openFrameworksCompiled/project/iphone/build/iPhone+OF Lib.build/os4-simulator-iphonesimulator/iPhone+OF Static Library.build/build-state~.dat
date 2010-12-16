@@ -1,0 +1,1722 @@
+TiPhone+OF Static Library
+v7
+r0
+t305061581.861660
+cCheck dependencies
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLibtool "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a" normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C494D260000000000000110
+t1279872294
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c00000000448600480000000000000556
+t1149632584
+s1366
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BD2001C0000000000193D80
+t1272053788
+s1654144
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BD1FFCD0000000000000A22
+t1272053709
+s2594
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BD1D4D20000000000061790
+t1272042706
+s399248
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BD1D4C800000000000001AF
+t1272042696
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004BD1D83E000000000000017D
+t1272043582
+s381
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004BD1D85F0000000000185260
+t1272043615
+s1593952
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004BD1CD18000000000001EEA0
+t1272040728
+s126624
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BD1CF66000000000000094F
+t1272041318
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BD1CF660000000000000A61
+t1272041318
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BD1CF660000000000009369
+t1272041318
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BD1CF660000000000002A42
+t1272041318
+s10818
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BD1CF720000000000021BE0
+t1272041330
+s138208
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004BD1D01E000000000000007D
+t1272041502
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004BD1D06900000000001294B0
+t1272041577
+s1217712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004BD1CFC10000000000001A1A
+t1272041409
+s6682
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/TargetConditionals.h
+c000000004BD1CFC100000000000031E9
+t1272041409
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/errno.h
+c000000004748A13100000000000003EB
+t1195942193
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/inttypes.h
+c000000004748A13100000000000027D1
+t1195942193
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/mach/mach_time.h
+c000000004763449D0000000000000746
+t1197687965
+s1862
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/pthread.h
+c000000004748A133000000000000380F
+t1195942195
+s14351
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/setjmp.h
+c000000004748A1310000000000000438
+t1195942193
+s1080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/select.h
+c00000000476344C000000000000016A2
+t1197688000
+s5794
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/time.h
+c00000000476344C00000000000001E18
+t1197688000
+s7704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/time.h
+c000000004748A133000000000000178E
+t1195942195
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/wchar.h
+c000000004748A13300000000000025DA
+t1195942195
+s9690
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004748AF9500000000000014F4
+t1195945877
+s5364
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004748AF9500000000000010DD
+t1195945877
+s4317
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004B9FB4BA00000000000018EE
+t1268757690
+s6382
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxMultiTouch/src/ofxMultiTouch.h
+c000000004B9FB4BA0000000000000B9D
+t1268757690
+s2973
+i"ofMain.h"
+i"ofxMultiTouchListener.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxMultiTouch/src/ofxMultiTouchListener.h
+c000000004B9FB4BA0000000000000BC9
+t1268757690
+s3017
+i"ofEvents.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/ofxiPhone.h
+c000000004B9FB4BA000000000000089A
+t1268757690
+s2202
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxAccelerometer.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/EAGLView.h
+c000000004C7E48DC0000000000000D22
+t1283344604
+s3362
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxMultiTouch.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/MSARootViewController.h
+c000000004B9FB4BA0000000000000A4D
+t1268757690
+s2637
+i<UIKit/UIKit.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004B9FB4BA0000000000000CD5
+t1268757690
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneAlerts.h
+c000000004B9FB4BA0000000000000D2A
+t1268757690
+s3370
+i"ofxiPhoneAlertsListener.h"
+i<list>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneAlertsListener.h
+c000000004BA14DD00000000000000821
+t1268862416
+s2081
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004B9FB4BA0000000000000955
+t1268757690
+s2389
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004B9FB4BA00000000000008A6
+t1268757690
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004B9FB4BA0000000000000C2E
+t1268757690
+s3118
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004B9FB4BA0000000000000583
+t1268757690
+s1411
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneMapKit.h
+c000000004B9FB4BA000000000000162C
+t1268757690
+s5676
+i<Availability.h>
+i"ofMain.h"
+i<MapKit/MapKit.h>
+i"ofxiPhoneMapKitListener.h"
+i<list>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.h
+c000000004B9FB4BA000000000000096B
+t1268757690
+s2411
+i<Availability.h>
+i<MapKit/MapKit.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/addons/ofxiPhone/src/ofxiPhoneMapKitListener.h
+c000000004B9FB4BA0000000000000881
+t1268757690
+s2177
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/freetype/include/freetype2/freetype/config/ftheader.h
+c000000004AE197740000000000005B39
+t1256298356
+s23353
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/freetype/include/freetype2/freetype/freetype.h
+c000000004AE197740000000000032885
+t1256298356
+s206981
+i<ft2build.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/freetype/include/freetype2/freetype/ftglyph.h
+c000000004AE197740000000000008DCF
+t1256298356
+s36303
+i<ft2build.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/freetype/include/freetype2/freetype/ftoutln.h
+c000000004AE197740000000000007B3C
+t1256298356
+s31548
+i<ft2build.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/freetype/include/freetype2/freetype/fttrigon.h
+c000000004AE1977400000000000020FB
+t1256298356
+s8443
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004B1A71980000000000000446
+t1260024216
+s1094
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004B1A70A6000000000000066C
+t1260023974
+s1644
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/app/ofAppRunner.h
+c000000004C7E4706000000000000050D
+t1283344134
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/app/ofBaseApp.h
+c000000004B9FB4BA0000000000000376
+t1268757690
+s886
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/events/ofEventUtils.h
+c000000004B1A5C920000000000000A8A
+t1260018834
+s2698
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/graphics/ofBitmapFont.h
+c000000004B9FB4BA0000000000000206
+t1268757690
+s518
+i"ofConstants.h"
+i"ofTexture.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/graphics/ofGraphics.h
+c000000004C7DFDF80000000000000CF3
+t1283325432
+s3315
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/graphics/ofImage.h
+c000000004B1ACDE40000000000000C9F
+t1260047844
+s3231
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/graphics/ofTexture.h
+c000000004B1E897C0000000000000B5A
+t1260292476
+s2906
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004AE17B54000000000000087A
+t1256291156
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/utils/ofConstants.h
+c000000004B9FB4BA0000000000002A7F
+t1268757690
+s10879
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<stdio.h>
+i<stdarg.h>
+i<math.h>
+i<time.h>
+i<stdlib.h>
+i<string.h>
+i<iostream>
+i<vector>
+i<string>
+i<sstream>
+i<iomanip>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/utils/ofMath.h
+c000000004C7E201800000000000006DB
+t1283334168
+s1755
+i"ofConstants.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/utils/ofNoise.h
+c000000004B1BAE320000000000004F24
+t1260105266
+s20260
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworks/utils/ofUtils.h
+c000000004AE17B5400000000000005A4
+t1256291156
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp
+c000000004B9FB4BA000000000000075A
+t1268757690
+s1882
+i"ofxAccelerometer.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004B9FB4BA00000000000018EE
+t1268757690
+s6382
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp
+c000000004B9FB4BA0000000000000A06
+t1268757690
+s2566
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/ofxiPhoneExtras.h
+c000000004BA25FDC0000000000002140
+t1268932572
+s8512
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneAppDelegate.h"
+i"EAGLView.h"
+i"ofxiPhoneKeyboard.h"
+i"ofxiPhoneCoreLocation.h"
+i"ofxiPhoneImagePicker.h"
+i"ofxiPhoneMapKit.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.h
+c000000004C7E48DC0000000000000D22
+t1283344604
+s3362
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxMultiTouch.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm
+c000000004C7EA6FD0000000000002F3A
+t1283368701
+s12090
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGLDrawable.h>
+i"EAGLView.h"
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm
+c000000004C7E46130000000000001BC5
+t1283343891
+s7109
+i"MSARootViewController.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004B9FB4BA0000000000000CD5
+t1268757690
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm
+c000000004C7EA627000000000000274B
+t1283368487
+s10059
+i"ofMain.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneExtras.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm
+c000000004BA1505C0000000000000D44
+t1268863068
+s3396
+i"ofxAccelerometer.h"
+i"ofMain.h"
+i<UIKit/UIKit.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm
+c000000004B9FB4BA0000000000000718
+t1268757690
+s1816
+i"ofxiPhoneAlerts.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneApp.h
+c000000004C7E461F000000000000046B
+t1283343903
+s1131
+i"ofMain.h"
+i"ofEvents.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004B9FB4BA0000000000000955
+t1268757690
+s2389
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm
+c000000004BA1501C00000000000021BD
+t1268863004
+s8637
+i<mach/mach_time.h>
+i"ofxiPhoneAppDelegate.h"
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004B9FB4BA00000000000008A6
+t1268757690
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm
+c000000004B9FB4BA0000000000002059
+t1268757690
+s8281
+i"ofxiPhoneCoreLocation.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm
+c000000004BA150E00000000000002DC0
+t1268863200
+s11712
+i"ofxiPhoneExtras.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004B9FB4BA0000000000000C2E
+t1268757690
+s3118
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm
+c000000004BA680DA0000000000003730
+t1269203162
+s14128
+i"ofxiPhoneImagePicker.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004B9FB4BA0000000000000583
+t1268757690
+s1411
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm
+c000000004BA681160000000000001C73
+t1269203222
+s7283
+i"ofxiPhoneKeyboard.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm
+c000000004BA1501C0000000000001F2A
+t1268863004
+s7978
+i<Availability.h>
+i"ofxiPhoneMapKit.h"
+i"ofxiPhoneExtras.h"
+i"ofxiPhoneMapKitDelegate.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm
+c000000004B9FB4BA0000000000000B87
+t1268757690
+s2951
+i<Availability.h>
+i"ofxiPhoneMapKitDelegate.h"
+i"ofxiPhoneMapKit.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm
+c000000004B9FB4BA0000000000001045
+t1268757690
+s4165
+i"ofSoundPlayer.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm
+c000000004B9FB4BA000000000000276F
+t1268757690
+s10095
+i"ofMain.h"
+i"ofSoundStream.h"
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i"ofxiPhone.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../FreeImage/include/FreeImage.h
+c000000004B1C3688000000000000CC1B
+t1260140168
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../freetype/include/ft2build.h
+c000000004AE197740000000000000F32
+t1256298356
+s3890
+i<freetype/config/ftheader.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../glu/include_iphone/glu.h
+c000000004B9FB4BA0000000000001F99
+t1268757690
+s8089
+i<OpenGLES/ES1/gl.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp
+c000000004B1A708400000000000017AA
+t1260023940
+s6058
+i"ofAppRunner.h"
+i"ofAppiPhoneWindow.h"
+i"ofAppGlutWindow.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.h
+c000000004C7E4706000000000000050D
+t1283344134
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofBaseApp.h
+c000000004B9FB4BA0000000000000376
+t1268757690
+s886
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/events/ofEvents.h
+c000000004B9FB4BA0000000000000E3C
+t1268757690
+s3644
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp
+c000000004B9FB4BA0000000000009D17
+t1268757690
+s40215
+i"ofBitmapFont.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp
+c000000004BA151780000000000008095
+t1268863352
+s32917
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"ofBitmapFont.h"
+i<OpenGL/glu.h>
+i"glu.h"
+i"GL/glu.h"
+i"glu.h"
+i<vector>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.h
+c000000004C7DFDF80000000000000CF3
+t1283325432
+s3315
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp
+c000000004BA278660000000000003F32
+t1268938854
+s16178
+i"ofImage.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.h
+c000000004B1ACDE40000000000000C9F
+t1260047844
+s3231
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp
+c000000004B9FB4BA000000000000390F
+t1268757690
+s14607
+i"ofTexture.h"
+i"ofUtils.h"
+i"ofAppRunner.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.h
+c000000004B1E897C0000000000000B5A
+t1260292476
+s2906
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+c000000004B1C50B00000000000006D00
+t1260146864
+s27904
+i"ofTrueTypeFont.h"
+i<ft2build.h>
+i<freetype/freetype.h>
+i<freetype/ftglyph.h>
+i<freetype/ftoutln.h>
+i<freetype/fttrigon.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.h
+c000000004AE17B54000000000000087A
+t1256291156
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofMain.h
+c000000004B1ACDE40000000000000347
+t1260047844
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/sound/ofSoundPlayer.h
+c000000004B1AD2AA00000000000006C3
+t1260049066
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/sound/ofSoundStream.h
+c000000004AE17B540000000000000254
+t1256291156
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofConstants.h
+c000000004B9FB4BA0000000000002A7F
+t1268757690
+s10879
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<stdio.h>
+i<stdarg.h>
+i<math.h>
+i<time.h>
+i<stdlib.h>
+i<string.h>
+i<iostream>
+i<vector>
+i<string>
+i<sstream>
+i<iomanip>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp
+c000000004C7E1FF600000000000013C6
+t1283334134
+s5062
+i"ofMath.h"
+i"ofAppRunner.h"
+i"float.h"
+i<sys/time.h>
+i"ofNoise.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.h
+c000000004C7E201800000000000006DB
+t1283334168
+s1755
+i"ofConstants.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofTypes.h
+c000000004B1A85A00000000000001991
+t1260029344
+s6545
+i"ofConstants.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp
+c000000004C79A42000000000000026CC
+t1283040288
+s9932
+i"ofUtils.h"
+i"ofImage.h"
+i"sys/time.h"
+i<mmsystem.h>
+i<direct.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.h
+c000000004AE17B5400000000000005A4
+t1256291156
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a
+t1283368781
+s10667080
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o
+t1283368774
+s585572
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o
+t1283368777
+s468900
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o
+t1283368779
+s1666360
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o
+t1283368771
+s672604
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o
+t1283368781
+s91472
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o
+t1283368780
+s512900
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o
+t1283368780
+s357388
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o
+t1283368779
+s340148
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o
+t1283368781
+s342528
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o
+t1283368778
+s307580
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o
+t1283368780
+s428940
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o
+t1283368770
+s56480
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o
+t1283368769
+s428360
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o
+t1283368777
+s327500
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o
+t1283368777
+s56388
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o
+t1283368776
+s671972
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o
+t1283368774
+s348152
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o
+t1283368770
+s460704
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o
+t1283368771
+s390240
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o
+t1283368772
+s449564
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o
+t1283368769
+s482616
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o
+t1283368775
+s335252
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneOFLib_iphonesimulator _Debug.LinkFileList
+c000000004C7EA7400000000000001397
+t1283368768
+s5015
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o
+t1283368768
+s59896
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o
+t1283368772
+s428044
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/AbstractDelegate.h
+c000000004AE17B540000000000000B2E
+t1256291156
+s2862
+i"Poco/Foundation.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/AbstractEvent.h
+c000000004AE17B540000000000002C6A
+t1256291156
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/ActiveMethod.h
+c000000004AE17B540000000000001C64
+t1256291156
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/ActiveResult.h
+c000000004AE17B540000000000002E66
+t1256291156
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/ActiveRunnable.h
+c000000004AE17B540000000000001785
+t1256291156
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/ActiveStarter.h
+c000000004AE17B540000000000000927
+t1256291156
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/AutoPtr.h
+c000000004AE17B540000000000001E0C
+t1256291156
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Bugcheck.h
+c000000004AE17B5400000000000012FE
+t1256291156
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/CompareFunctions.h
+c000000004AE17B5400000000000007EC
+t1256291156
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Config.h
+c000000004AE17B5400000000000008B5
+t1256291156
+s2229
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Delegate.h
+c000000004AE17B540000000000001802
+t1256291156
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Event.h
+c000000004AE17B540000000000000E21
+t1256291156
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Event_POSIX.h
+c000000004AE17B540000000000000A91
+t1256291156
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Event_WIN32.h
+c000000004AE17B540000000000000947
+t1256291156
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Exception.h
+c000000004AE17B5400000000000026AC
+t1256291156
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Expire.h
+c000000004AE17B540000000000000CF1
+t1256291156
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/FIFOEvent.h
+c000000004AE17B540000000000000AD4
+t1256291156
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/FIFOStrategy.h
+c000000004AE17B5400000000000010F3
+t1256291156
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Foundation.h
+c000000004B1E897C0000000000001023
+t1260292476
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/FunctionDelegate.h
+c000000004AE17B5400000000000013CA
+t1256291156
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Mutex.h
+c000000004AE17B540000000000001A61
+t1256291156
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004AE17B540000000000000AC3
+t1256291156
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004AE17B540000000000000A07
+t1256291156
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/NotificationStrategy.h
+c000000004AE17B540000000000000A37
+t1256291156
+s2615
+i"Poco/Foundation.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Platform.h
+c000000004AE17B540000000000001A3A
+t1256291156
+s6714
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Platform_POSIX.h
+c000000004AE17B540000000000000843
+t1256291156
+s2115
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Platform_VMS.h
+c000000004AE17B540000000000000BAA
+t1256291156
+s2986
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Platform_WIN32.h
+c000000004AE17B540000000000000D4D
+t1256291156
+s3405
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/RefCountedObject.h
+c000000004AE17B540000000000000B10
+t1256291156
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Runnable.h
+c000000004AE17B540000000000000861
+t1256291156
+s2145
+i"Poco/Foundation.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/ScopedLock.h
+c000000004AE17B5400000000000008EB
+t1256291156
+s2283
+i"Poco/Foundation.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/SharedPtr.h
+c000000004AE17B5400000000000021DE
+t1256291156
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/SignalHandler.h
+c000000004AE17B5400000000000011EB
+t1256291156
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/SingletonHolder.h
+c000000004AE17B540000000000000A64
+t1256291156
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Thread.h
+c000000004AE17B540000000000001C3A
+t1256291156
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/ThreadPool.h
+c000000004AE17B540000000000001849
+t1256291156
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Thread_POSIX.h
+c000000004AE17B5400000000000012A8
+t1256291156
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Thread_WIN32.h
+c000000004AE17B54000000000000106C
+t1256291156
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Timestamp.h
+c000000004AE17B5400000000000019A7
+t1256291156
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/Types.h
+c000000004AE17B540000000000001910
+t1256291156
+s6416
+i"Poco/Foundation.h"
+
+N/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/poco/include/Poco/UnWindows.h
+c000000004B1E897C0000000000000FD1
+t1260292476
+s4049
+i<windows.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305061568#305061568#0(0"0(0#1#0"8667733216#0"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061572.588512
+e305061574.448389
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm: In function 'BOOL -[EAGLView _createSurface](EAGLView*, objc_selector*)':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:61: warning: unused variable 'scale'
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm: In function 'objc_object* -[EAGLView initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:](EAGLView*, objc_selector*, CGRect, GLuint, GLuint, bool)':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: 'UIScreen' may not respond to '-scale'
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: (Messages without a matching method signature
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: will be assumed to return 'id' and accept
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: '...' as arguments.)
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: 'EAGLView' may not respond to '-setContentScaleFactor:'
+lSLF07#2@136"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm305061572#305061574#0(1574"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm: In function 'BOOL -[EAGLView _createSurface](EAGLView*, objc_selector*)':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:61: warning: unused variable 'scale'/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm: In function 'objc_object* -[EAGLView initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:](EAGLView*, objc_selector*, CGRect, GLuint, GLuint, bool)':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: 'UIScreen' may not respond to '-scale'/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: (Messages without a matching method signature/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: will be assumed to return 'id' and accept/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: '...' as arguments.)/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm:183: warning: 'EAGLView' may not respond to '-setContentScaleFactor:'4(22@23"Unused variable 'scale'305061573#204#166#0(6@128"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm305061501#61#0#61#0#19"unused variable '*'0(22@38"'UIScreen' may not respond to '-scale'305061573#655#182#0(6@128"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm305061501#183#0#183#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)305061573#837#189#0(6@128"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm305061501#183#0#183#0#0"0(22@55"'EAGLView' may not respond to '-setContentScaleFactor:'305061573#1375#199#0(6@128"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm305061501#183#0#183#0#26"'*' may not respond to '*'0(0#0#128"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm8680599808#1953"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/EAGLView.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061576.231728
+e305061577.858688
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@149"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm305061576#305061577#0(0"0(0#0#141"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm8672686688#1979"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/MSARootViewController.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/MSARootViewController.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061577.251748
+e305061579.293523
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@135"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp305061577#305061579#0(0"0(0#0#127"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp8657148192#1901"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061570.420992
+e305061571.659359
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm: In member function 'virtual void ofAppiPhoneWindow::setFullscreen(bool)':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm:175: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)
+lSLF07#2@145"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm305061570#305061571#0(578"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm: In member function 'virtual void ofAppiPhoneWindow::setFullscreen(bool)':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm:175: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)1(22@212"'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)305061571#213#365#0(6@137"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm305061287#175#0#175#0#33"'*' is deprecated (declared at *)0(0#0#137"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm8681285760#1971"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofAppiPhoneWindow.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061580.865549
+e305061581.299867
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@141"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp305061580#305061581#0(0"0(0#0#133"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp8641285120#1908"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofBitmapFont.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061579.418885
+e305061580.309619
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp: In function 'void ofDrawBitmapString(std::string, float, float)':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp:661: warning: unused variable 'yOffset'
+lSLF07#2@139"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp305061579#305061580#0(371"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp: In function 'void ofDrawBitmapString(std::string, float, float)':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp:661: warning: unused variable 'yOffset'1(22@25"Unused variable 'yOffset'305061579#199#172#0(6@131"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp290556152#661#0#661#0#19"unused variable '*'0(0#0#131"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp8674296800#1904"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofGraphics.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061580.087374
+e305061580.865443
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@136"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp305061580#305061580#0(0"0(0#0#128"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp8680553408#1898"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061578.638204
+e305061579.418631
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@132"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp305061578#305061579#0(0"0(0#0#124"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp8665951712#1893"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofMath.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061580.309718
+e305061581.070417
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@138"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp305061580#305061581#0(0"0(0#0#130"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp8676434400#1902"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTexture.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061577.858925
+e305061578.638113
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@143"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp305061577#305061578#0(0"0(0#0#135"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp8678294720#1912"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofTrueTypeFont.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061579.293616
+e305061580.087276
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@133"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp305061579#305061580#0(0"0(0#0#125"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp8676604288#1895"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/utils/ofUtils.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061569.981015
+e305061570.420891
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp305061569#305061570#0(0"0(0#0#144"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp8631311008#1923"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s305061568.255991
+e305061569.036104
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@146"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp305061568#305061569#0(0"0(0#0#138"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp8661062048#1914"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061575.791650
+e305061577.066826
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@150"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm305061575#305061577#0(0"0(0#0#142"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm8678460672#1981"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAccelerometer.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061577.066927
+e305061577.251648
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@143"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm305061577#305061577#0(0"0(0#0#135"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm8675447040#1967"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAlerts.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061574.448490
+e305061576.231510
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm: In function 'void -[ofxiPhoneAppDelegate applicationDidFinishLaunching:](ofxiPhoneAppDelegate*, objc_selector*, UIApplication*)':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:178: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)
+lSLF07#2@148"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm305061574#305061576#0(640"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm: In function 'void -[ofxiPhoneAppDelegate applicationDidFinishLaunching:](ofxiPhoneAppDelegate*, objc_selector*, UIApplication*)':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm:178: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)1(22@212"'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)305061575#272#368#0(6@140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm290555804#178#0#178#0#33"'*' is deprecated (declared at *)0(0#0#140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm8681689376#1977"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneAppDelegate.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061572.810371
+e305061574.440126
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm: In function 'void -[ofxiPhoneCoreLocationDelegate locationManager:didUpdateToLocation:fromLocation:](ofxiPhoneCoreLocationDelegate*, objc_selector*, CLLocationManager*, CLLocation*, CLLocation*)':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm:238: warning: 'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:204)
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm: In function 'void -[ofxiPhoneCoreLocationDelegate locationManager:didFailWithError:](ofxiPhoneCoreLocationDelegate*, objc_selector*, CLLocationManager*, NSError*)':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm:314: warning: format not a string literal and no format arguments
+lSLF07#2@149"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm305061572#305061574#0(1217"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm: In function 'void -[ofxiPhoneCoreLocationDelegate locationManager:didUpdateToLocation:fromLocation:](ofxiPhoneCoreLocationDelegate*, objc_selector*, CLLocationManager*, CLLocation*, CLLocation*)':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm:238: warning: 'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:204)/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm: In function 'void -[ofxiPhoneCoreLocationDelegate locationManager:didFailWithError:](ofxiPhoneCoreLocationDelegate*, objc_selector*, CLLocationManager*, NSError*)':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm:314: warning: format not a string literal and no format arguments2(22@204"'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:204)305061573#340#361#0(6@141"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm290450490#238#0#238#0#33"'*' is deprecated (declared at *)0(22@51"Format not a string literal and no format arguments305061573#1009#208#0(6@141"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm290450490#314#0#314#0#51"format not a string literal and no format arguments0(0#0#141"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm8676217216#1979"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneCoreLocation.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061569.036196
+e305061570.430687
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm: In function 'std::string ofxNSStringToString(NSString*)':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm:255: warning: 'getCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:352)
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm: In function 'std::string ofxiPhoneGetDeviceRevision()':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm:44: warning: control reaches end of non-void function
+lSLF07#2@143"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm305061569#305061570#0(924"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm: In function 'std::string ofxNSStringToString(NSString*)':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm:255: warning: 'getCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:352)/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm: In function 'std::string ofxiPhoneGetDeviceRevision()':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm:44: warning: control reaches end of non-void function2(22@195"'getCString:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:352)305061570#195#346#0(6@135"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm290556000#255#0#255#0#33"'*' is deprecated (declared at *)0(22@40"Control reaches end of non-void function305061570#734#190#0(6@135"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm290556000#44#0#44#0#40"control reaches end of non-void function0(0#0#135"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm8678100832#1967"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneExtras.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061570.430789
+e305061571.400445
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm: In member function 'void ofxiPhoneImagePicker::hideCameraOverlay()':
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:54: warning: 'ofxiPhoneImagePickerDelegate' may not respond to '-hideCameraOverlay'
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:54: warning: (Messages without a matching method signature
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:54: warning: will be assumed to return 'id' and accept
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:54: warning: '...' as arguments.)
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm: At global scope:
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:446: warning: incomplete implementation of class 'ofxiPhoneImagePickerDelegate'
+o/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:446: warning: method definition for '-wasNewImagePicked' not found
+lSLF07#2@148"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm305061570#305061571#0(1595"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm: In member function 'void ofxiPhoneImagePicker::hideCameraOverlay()':/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:54: warning: 'ofxiPhoneImagePickerDelegate' may not respond to '-hideCameraOverlay'/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:54: warning: (Messages without a matching method signature/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:54: warning: will be assumed to return 'id' and accept/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:54: warning: '...' as arguments.)/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm: At global scope:/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:446: warning: incomplete implementation of class 'ofxiPhoneImagePickerDelegate'/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm:446: warning: method definition for '-wasNewImagePicked' not found5(22@70"'ofxiPhoneImagePickerDelegate' may not respond to '-hideCameraOverlay'305061571#211#225#0(6@140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm290895962#54#0#54#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)305061571#436#200#0(6@140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm290895962#54#0#54#0#0"0(23@16"At global scope:305061571#1007#159#0(6@140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm290895962#0#0#0#0#0"0(22@65"Incomplete implementation of class 'ofxiPhoneImagePickerDelegate'305061571#1166#221#0(6@140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm290895962#446#0#446#0#38"incomplete implementation of class '*'0(22@52"Method definition for '-wasNewImagePicked' not found305061571#1387#208#0(6@140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm290895962#446#0#446#0#35"method definition for '*' not found0(0#0#140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm8679398944#1977"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneImagePicker.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061571.659612
+e305061572.810277
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@145"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm305061571#305061572#0(0"0(0#0#137"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm8674120544#1971"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneKeyboard.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061568.653849
+e305061569.980878
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@143"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm305061568#305061569#0(0"0(0#0#135"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm8656945216#1967"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKit.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061574.440345
+e305061575.791555
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@151"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm305061574#305061575#0(0"0(0#0#143"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm8675504320#1983"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneMapKitDelegate.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061568.254921
+e305061568.653757
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@148"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm305061568#305061568#0(0"0(0#0#140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm8661459840#1977"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundPlayer.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundPlayer.o"0#
+
+CCompileC "build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o" /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s305061571.400537
+e305061572.588420
+r1
+xCompileC
+xbuild/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@148"Compile /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm305061571#305061572#0(0"0(0#0#140"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm8669317696#1977"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/ofxiPhoneOFLib_iphonesimulator _Debug.hmap" -F/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone/include -I../../../poco/include -I../../../../libs/freetype/include -I../../../../libs/freetype/include/freetype2 "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources/i386" "-I/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/DerivedSources" -c /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../../addons/ofxiPhone/src/ofxiPhoneSoundStream.mm -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o"0#
+
+CLibtool "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a" normal i386
+s305061581.299969
+e305061581.861599
+r1
+xLibtool
+x/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a
+xnormal
+xi386
+lSLF07#2@82"Libtool "../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a" normal i386305061581#305061581#0(0"0(0#0#0"8673799168#1562"    cd /wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone -L"/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../../libs/glu/lib/iphone" -L/Developer/openFrameworks/libs/poco/lib/linux -L/Developer/openFrameworks/libs/poco/lib/linux64 -L/Developer/openFrameworks/libs/poco/lib/osx -L/Developer/openFrameworks/libs/poco/lib/vs2008 -L/Developer/openFrameworks/libs/poco/lib/win_cb -L/Developer/openFrameworks/libs/poco/lib/armv6 -filelist "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/build/iPhone+OF Lib.build/os4-simulator-iphonesimulator/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneOFLib_iphonesimulator _Debug.LinkFileList" -framework AudioToolbox -framework OpenGLES -framework UIKit -framework OpenAL -framework Foundation -framework CoreGraphics -framework CoreLocation -framework QuartzCore -framework MapKit -o "/wbc/of_preRelease_v0061_iPhone_FAT-pre3/libs/openFrameworksCompiled/project/iphone/../../lib/iphone//libofxiPhoneOFLib_iphonesimulator _Debug.a"0#
+

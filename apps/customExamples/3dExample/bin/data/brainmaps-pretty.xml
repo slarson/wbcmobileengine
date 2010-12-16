@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<table>
+	<record>
+		<Id>37</Id>
+		<slides>25</slides>
+		<dataset>BS-sag</dataset>
+		<species>felis catus</species>
+		<stain>Nissl</stain>
+		<method>histo</method>
+		<plane>sagittal</plane>
+		<area>brainstem</area>
+		<source>EGJ</source>
+		<res>20</res>
+		<thick>40</thick>
+		<date_added>2006-03-28</date_added>
+		<dirname>HBP2/felis.catus/atlas/BS-sag/</dirname>
+		<thumb_url>p043ab/TileGroup0/0-0-0.jpg</thumb_url>
+		<stackvis>1</stackvis>
+	</record>
+		<record>
+		<Id>89</Id>
+		<slides>42</slides>
+		<dataset>E17a</dataset>
+		<species>rattus norvegicus</species>
+		<stain>Nissl</stain>
+		<method>histo</method>
+		<plane>sagittal</plane>
+		<area>whole-body</area>
+		<source>EGJ</source>
+		<res>0.46</res>
+		<thick>25</thick>
+		<date_added>2007-01-25</date_added>
+		<dirname>HBP3/rattus.norvegicus/sag/E17a/</dirname>
+		<thumb_url>29a/TileGroup0/0-0-0.jpg</thumb_url>
+		<stackvis>1</stackvis>
+	</record>
+	<record>
+		<Id>105</Id>
+		<slides>2</slides>
+		<dataset>001-nissl</dataset>
+		<species>callicebus</species>
+		<stain>Nissl</stain>
+		<method>histo</method>
+		<plane>coronal</plane>
+		<area>whole-brain</area>
+		<source>EGJ</source>
+		<res>0.46</res>
+		<thick>30</thick>
+		<date_added>2007-08-06</date_added>
+		<dirname>HBP3/callicebus/cor/001-nissl/</dirname>
+		<thumb_url>052/TileGroup0/0-0-0.jpg</thumb_url>
+		<stackvis>1</stackvis>
+	</record>	
+	<record>
+		<Id>81</Id>
+		<slides>700</slides>
+		<dataset>VisibleMale2</dataset>
+		<species>homo sapiens</species>
+		<stain>Blockface</stain>
+		<method>cryo</method>
+		<plane>horizontal</plane>
+		<area>whole-brain</area>
+		<source>NLM</source>
+		<res>125</res>
+		<thick>174</thick>
+		<date_added>2006-12-20</date_added>
+		<dirname>HBP3/h.sapiens/VisibleMale2/</dirname>
+		<thumb_url>0552/TileGroup0/0-0-0.jpg</thumb_url>
+		<stackvis>1</stackvis>
+	</record>
+		<record>
+		<Id>68</Id>
+		<slides>39</slides>
+		<dataset>001-ctb</dataset>
+		<species>mus musculus</species>
+		<stain>retinal projections</stain>
+		<method>immuno</method>
+		<plane>sagittal</plane>
+		<area>whole-brain</area>
+		<source>HJK</source>
+		<res>0.46</res>
+		<thick>30</thick>
+		<date_added>2006-12-06</date_added>
+		<dirname>HBP4/mus.musculus/sag/001-ctb/</dirname>
+		<thumb_url>57/TileGroup0/0-0-0.jpg</thumb_url>
+		<stackvis>1</stackvis>
+	</record>
+</table>

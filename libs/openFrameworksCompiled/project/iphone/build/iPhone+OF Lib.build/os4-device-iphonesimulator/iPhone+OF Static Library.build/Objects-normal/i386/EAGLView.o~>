@@ -1,0 +1,18 @@
+In file included from /Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofAppRunner.h:6,
+                 from /Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/graphics/ofImage.h:7,
+                 from /Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofMain.h:23,
+                 from /Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:33:
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofBaseApp.h: In member function 'virtual int ofBaseApp::incrementTextureCount()':
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofBaseApp.h:40: warning: no return statement in function returning non-void
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofBaseApp.h: In member function 'virtual int ofBaseApp::decrementTextureCount()':
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/app/ofBaseApp.h:41: warning: no return statement in function returning non-void
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm: In function 'BOOL -[EAGLView reachable:](EAGLView*, objc_selector*, NSString*)':
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:163: error: 'reachable' was not declared in this scope
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:163: error: expected `;' before '{' token
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:311: error: expected `}' at end of input
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm: At global scope:
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:311: error: expected `@end' at end of input
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:311: warning: incomplete implementation of class 'EAGLView'
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:311: warning: method definition for '-context' not found
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:311: warning: method definition for '-finishRender' not found
+/Users/stoner/code/wbc/wbcmobileengine/libs/openFrameworksCompiled/project/iphone/../../../openFrameworks/ofxiPhone/src/EAGLView.mm:311: warning: method definition for '-startRender' not found

@@ -1,0 +1,49 @@
+10
+
+dir
+0
+https://wbcmobileengine.googlecode.com/svn/trunk/libs/poco/include/Poco/Dynamic
+https://wbcmobileengine.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14387624-d554-d652-77bc-175aa7a48e8c
+
+Struct.h
+file
+
+
+
+add
+
+VarHolder.h
+file
+
+
+
+add
+
+Var.h
+file
+
+
+
+add
+
