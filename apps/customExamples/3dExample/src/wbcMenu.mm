@@ -161,6 +161,222 @@ void wbcMenu::loadResources(ofxGuiGlobals* guiPtr)
 #pragma mark -
 #pragma mark Populate menu with data 
 
+bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
+{
+	// check for file
+	
+	string customfilename = "customsites.xml";
+	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *temporaryDirectory = [paths objectAtIndex:0];
+	NSString* path = [temporaryDirectory stringByAppendingPathComponent:[NSString stringWithUTF8String:customfilename.c_str()]];
+	
+	
+	// file already exists! : good, load it, and the rest:
+	if ( [[NSFileManager defaultManager] fileExistsAtPath:path isDirectory: false ] ) 
+	{
+		
+		int _start = 0;
+		int _count = 100;
+		int tic = ofGetElapsedTimeMillis();
+		
+		mXmlFile			= ofxNSStringToString(path);
+		if(!mXmlDone)
+		{
+			return false;
+		}
+		
+		printf("[WBC - XML] Reading %s\n", mXmlFile.c_str());
+		
+		if(!mXml.loadFileAbsolute(mXmlFile))
+		{
+			printf("[WBC - XML] XML Error in load\n");
+			return false;
+		}
+		
+		int	numberOfTags = mXml.getNumTags("site");	
+		int _itemsToLoad = 0;
+		if (numberOfTags == 0 ) { return false; }
+		
+		if (_start >= numberOfTags) { return false; }
+		
+		if ((_start + _count) >= numberOfTags)
+		{ 
+			_itemsToLoad = numberOfTags - _start; 
+		}
+		else {
+			_itemsToLoad = _count;
+		}
+		
+		
+		mXmlDone = false;
+		
+		
+		for (int i = _start; i < _start + _itemsToLoad; i++)
+		{
+			mXml.pushTag("site", i);
+			
+			//printf("site %d\n", i);
+			
+			
+			// check to see if the site is available, if yes then load, if no, try cache, if no cache then skip
+			
+			wbcDynamicElement* tempElement = new wbcDynamicElement();
+			tempElement->elementData = new wbcDataDescription();
+			tempElement->elementData->loadFromZoomifyURL(mXml.getAttribute("url", "address", ""));
+			
+			string tempfilename = tempElement->elementData->mDataName;
+			
+			// remove any misc periods in filename... stupid .aff formats ;)
+			size_t found;
+			found = tempfilename.find(".");
+			if (found !=string::npos) {
+				tempfilename.erase(found);
+			}
+			
+			string mHibernateFilename = tempfilename + "_thumb.jpg";
+			
+			NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+			NSString *temporaryDirectory = [paths objectAtIndex:0];
+			NSString* path = [temporaryDirectory stringByAppendingPathComponent:[NSString stringWithUTF8String:mHibernateFilename.c_str()]];
+			
+			bool shouldAddItem = false;
+			
+			// option 1, file already exists! : good, load it, and the rest:
+			if ( [[NSFileManager defaultManager] fileExistsAtPath:path isDirectory: false ] ) 
+			{
+				printf("Thumbnail exists, loading.\n");
+				tempElement->baseImage.loadImage([path UTF8String]);
+				shouldAddItem = true;
+				
+			}
+			else {
+				// option 2: check network and load it
+				
+				if([ ofxiPhoneGetGLView() reachable])
+				{
+					tempElement->imageURL = mXml.getAttribute("url", "address", "") + "TileGroup0/0-0-0.jpg";
+					tempElement->baseImage.loadFromUrl(tempElement->imageURL);
+					tempElement->baseImage.saveImage([path UTF8String]);
+					shouldAddItem = true;
+				}
+				else {
+					// file does not exist and network is unreachable... sorry not loading this today.
+				}
+			}
+			
+			
+			
+			
+			if(shouldAddItem)
+			{
+				tempElement->title = mXml.getValue("title","");
+				tempElement->setSize(mGrid.getSize());
+				tempElement->sharedFont = &mGlobals->mParamFont;
+				tempElement->disableAllEvents();
+				tempElement->enableTouchEvents();
+				tempElement->mGlobals = mGlobals;
+				tempElement->parameterID = mItems.size();
+				tempElement->enabled = true;
+				tempElement->websiteURL = mXml.getAttribute("websiteURL", "address","");
+				
+				tempElement->elementData->mSite = mXml.getValue("site", "");
+				tempElement->elementData->mAttribution = mXml.getValue("attribution", "");
+				tempElement->elementData->mSpecies = mXml.getValue("species","");
+				
+				int _width		= mXml.getAttribute("IMAGE_PROPERTIES", "WIDTH", 0);
+				int _height		= mXml.getAttribute("IMAGE_PROPERTIES", "HEIGHT", 0);
+				int _tileSize	= mXml.getAttribute("IMAGE_PROPERTIES", "TILESIZE", 0);
+				
+				// assume 1 slide exists, populate it from the local xml file
+				
+				ofxWBCSlideDescription* tempslide = new ofxWBCSlideDescription();
+				tempslide->mWidth_px		= _width;
+				tempslide->mHeight_px		= _height;
+				tempslide->mTileSize_px		= _tileSize;
+				tempslide->mSlidePath		= mXml.getAttribute("url", "address", "");  //directory containing imageproperties.xml
+				tempslide->mNumberOfResolutions = 1+ceil(log(ceil((double)(max(tempslide->mWidth_px,tempslide->mHeight_px)/tempslide->mTileSize_px)))/log(2.0));
+				
+				// push to slide list
+				tempElement->elementData->mSlideList.push_back(tempslide);
+				tempElement->elementData->bHasMetaData = true;
+				tempElement->elementData->mDisplayName = mXml.getValue("displayName", "");
+				
+			//	
+//				// load any existing traces...doesn't really get used, yet.
+//				int numTraces = mXml.getNumTags("traces");
+//				for(int j = 0; j < numTraces; j++)
+//				{
+//					mXml.pushTag("traces"); // change relative root to <feed>
+//					int numEntries = mXml.getNumTags("trace");
+//					
+//					wbcAnnotation* tempContour = new wbcAnnotation();
+//					tempContour->label = mXml.getAttribute("trace", "name", "", 0);
+//					//				tempContour->label = "loaded";
+//					
+//					for (int i = 0; i < numEntries; i++) {
+//						
+//						mXml.pushTag("trace", i);
+//						
+//						int point_count = mXml.getNumTags("point");
+//						
+//						//	printf("[WBC] Found %d points to add\n", point_count);
+//						
+//						for (int j = 0; j < point_count; j++)
+//						{
+//							ofxVec3f temppoint;
+//							temppoint[0] = mXml.getAttribute("point", "x", 0.0, j); 
+//							temppoint[1] = mXml.getAttribute("point", "y", 0.0, j);
+//							temppoint[2] = mXml.getAttribute("point", "z", 0.0, j);		
+//							
+//							tempContour->contour.push_back(temppoint);
+//							tempContour->containsData = true;					
+//						}
+//						mXml.popTag();
+//					}
+//					tempElement->elementData->mTraceList.push_back(tempContour);
+//					mXml.popTag(); 
+//				}
+				
+				mItems.push_back(tempElement);
+			}
+			else {
+				
+				printf("no network or cache found, not loading\n");
+				
+				// clear the allocated components
+				delete tempElement->elementData;			
+				delete tempElement;
+				tempElement = NULL; //probably redundant
+				
+			}
+			
+			mXml.popTag();
+		}
+		
+		mXmlDone = true;
+		
+		int toc = ofGetElapsedTimeMillis() - tic;
+		
+		printf("[WBC - XML] Successfully parsed %d zoomify URLS from CUSTOM xml in %d ms\n", (int)mItems.size(), toc);
+		
+		return true;
+		
+		
+	}
+	else {
+		
+		// file doesn't exist, return false
+		
+		
+		return false;
+		
+	}
+	
+	return false;
+}
+
+
 bool wbcMenu::loadLocalSites(bool _withNetwork)
 {
 	return loadLocalSites(_withNetwork, 0, 100);
@@ -295,38 +511,41 @@ bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
 			tempElement->elementData->bHasMetaData = true;
 			tempElement->elementData->mDisplayName = mXml.getValue("displayName", "");
 			
-			
-			// load any existing traces...doesn't really get used, yet.
-			int numTraces = mXml.getNumTags("traces");
-			for(int j = 0; j < numTraces; j++)
-			{
-				mXml.pushTag("traces"); // change relative root to <feed>
-				int numEntries = mXml.getNumTags("trace");
-				
-				MSA::Interpolator3D tempContour;
-				
-				for (int i = 0; i < numEntries; i++) {
-					
-					mXml.pushTag("trace", i);
-					
-					int point_count = mXml.getNumTags("point");
-					
-					//	printf("[WBC] Found %d points to add\n", point_count);
-					
-					for (int j = 0; j < point_count; j++)
-					{
-						ofxVec3f temppoint;
-						temppoint[0] = mXml.getAttribute("point", "x", 0.0, j); 
-						temppoint[1] = mXml.getAttribute("point", "y", 0.0, j);
-						temppoint[2] = mXml.getAttribute("point", "z", 0.0, j);		
-						tempContour.push_back(temppoint);
-						
-					}
-					mXml.popTag();
-				}
-				tempElement->elementData->mTraceList.push_back(tempContour);
-				mXml.popTag(); 
-			}
+//			
+//			// load any existing traces...doesn't really get used, yet.
+//			int numTraces = mXml.getNumTags("traces");
+//			for(int j = 0; j < numTraces; j++)
+//			{
+//				mXml.pushTag("traces"); // change relative root to <feed>
+//				int numEntries = mXml.getNumTags("trace");
+//				
+//				wbcAnnotation* tempContour = new wbcAnnotation();
+//				tempContour->label = mXml.getAttribute("trace", "name", "", 0);
+//				//				tempContour->label = "loaded";
+//				
+//				for (int i = 0; i < numEntries; i++) {
+//					
+//					mXml.pushTag("trace", i);
+//					
+//					int point_count = mXml.getNumTags("point");
+//					
+//					//	printf("[WBC] Found %d points to add\n", point_count);
+//					
+//					for (int j = 0; j < point_count; j++)
+//					{
+//						ofxVec3f temppoint;
+//						temppoint[0] = mXml.getAttribute("point", "x", 0.0, j); 
+//						temppoint[1] = mXml.getAttribute("point", "y", 0.0, j);
+//						temppoint[2] = mXml.getAttribute("point", "z", 0.0, j);		
+//						
+//						tempContour->contour.push_back(temppoint);
+//						tempContour->containsData = true;					
+//					}
+//					mXml.popTag();
+//				}
+//				tempElement->elementData->mTraceList.push_back(tempContour);
+//				mXml.popTag(); 
+//			}
 			
 			mItems.push_back(tempElement);
 		}
@@ -437,7 +656,7 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 			{
 				tempElement->imageURL = tempElement->elementData->mURL + tempElement->elementData->bmDirectory + mXml.getValue("thumb_url", "");
 				printf("Thumb url: %s\n", tempElement->imageURL.c_str());
-
+				
 				if(	tempElement->baseImage.loadFromUrl(tempElement->imageURL))
 				{
 					tempElement->baseImage.saveImage([path UTF8String]);
@@ -459,7 +678,7 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 			tempElement->enableTouchEvents();
 			tempElement->mGlobals = mGlobals;
 			
-			tempElement->parameterID = i;
+			tempElement->parameterID = mItems.size();
 			tempElement->enabled = true;
 			tempElement->elementData->loadFromBrainMaps(tempElement->title);
 			tempElement->elementData->bmID = mXml.getValue("Id", 0);
@@ -500,14 +719,362 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 	mXmlDone = true;
 	int toc = ofGetElapsedTimeMillis() - tic;
 	
-//	printf("[WBC] Successfully parsed %d datasets from Brainmaps.org local xml in %d ms.\n", (int)brainmapsList.size(), toc);
+	//	printf("[WBC] Successfully parsed %d datasets from Brainmaps.org local xml in %d ms.\n", (int)brainmapsList.size(), toc);
 	
 	return true;
 }
 
 
-
-
+//#pragma mark -
+//#pragma mark Populate menu with data 
+//
+//bool wbcMenu::loadLocalSites(bool _withNetwork)
+//{
+//	return loadLocalSites(_withNetwork, 0, 100);
+//}
+//
+//bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
+//{
+//	// read xml file
+//	// loop through, adding files as needed
+//	
+//	int tic = ofGetElapsedTimeMillis();
+//	
+//	mXmlFile			= "localData.xml";
+//	if(!mXmlDone)
+//	{
+//		return false;
+//	}
+//	
+//	printf("[WBC - XML] Reading %s\n", mXmlFile.c_str());
+//	
+//	if(!mXml.loadFile(mXmlFile))
+//	{
+//		printf("[WBC - XML] XML Error in load\n");
+//		return false;
+//	}
+//	
+//	int	numberOfTags = mXml.getNumTags("site");	
+//	int _itemsToLoad = 0;
+//	if (numberOfTags == 0 ) { return false; }
+//	
+//	if (_start >= numberOfTags) { return false; }
+//	
+//	if ((_start + _count) >= numberOfTags)
+//	{ 
+//		_itemsToLoad = numberOfTags - _start; 
+//	}
+//	else {
+//		_itemsToLoad = _count;
+//	}
+//	
+//	
+//	mXmlDone = false;
+//	
+//	
+//	for (int i = _start; i < _start + _itemsToLoad; i++)
+//	{
+//		mXml.pushTag("site", i);
+//		
+//		//printf("site %d\n", i);
+//		
+//		
+//		// check to see if the site is available, if yes then load, if no, try cache, if no cache then skip
+//		
+//		wbcDynamicElement* tempElement = new wbcDynamicElement();
+//		tempElement->elementData = new wbcDataDescription();
+//		tempElement->elementData->loadFromZoomifyURL(mXml.getAttribute("url", "address", ""));
+//		
+//		string tempfilename = tempElement->elementData->mDataName;
+//		
+//		// remove any misc periods in filename... stupid .aff formats ;)
+//		size_t found;
+//		found = tempfilename.find(".");
+//		if (found !=string::npos) {
+//			tempfilename.erase(found);
+//		}
+//		
+//		string mHibernateFilename = tempfilename + "_thumb.jpg";
+//		
+//		NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//		NSString *temporaryDirectory = [paths objectAtIndex:0];
+//		NSString* path = [temporaryDirectory stringByAppendingPathComponent:[NSString stringWithUTF8String:mHibernateFilename.c_str()]];
+//		
+//		bool shouldAddItem = false;
+//		
+//		// option 1, file already exists! : good, load it, and the rest:
+//		if ( [[NSFileManager defaultManager] fileExistsAtPath:path isDirectory: false ] ) 
+//		{
+//			printf("Thumbnail exists, loading.\n");
+//			tempElement->baseImage.loadImage([path UTF8String]);
+//			shouldAddItem = true;
+//			
+//		}
+//		else {
+//			// option 2: check network and load it
+//			
+//			if([ ofxiPhoneGetGLView() reachable])
+//			{
+//				tempElement->imageURL = mXml.getAttribute("url", "address", "") + "TileGroup0/0-0-0.jpg";
+//				tempElement->baseImage.loadFromUrl(tempElement->imageURL);
+//				tempElement->baseImage.saveImage([path UTF8String]);
+//				shouldAddItem = true;
+//			}
+//			else {
+//				// file does not exist and network is unreachable... sorry not loading this today.
+//			}
+//		}
+//		
+//		
+//		
+//		
+//		if(shouldAddItem)
+//		{
+//			tempElement->title = mXml.getValue("title","");
+//			tempElement->setSize(mGrid.getSize());
+//			tempElement->sharedFont = &mGlobals->mParamFont;
+//			tempElement->disableAllEvents();
+//			tempElement->enableTouchEvents();
+//			tempElement->mGlobals = mGlobals;
+//			tempElement->parameterID = mItems.size();
+//			tempElement->enabled = true;
+//			tempElement->websiteURL = mXml.getAttribute("websiteURL", "address","");
+//			
+//			tempElement->elementData->mSite = mXml.getValue("site", "");
+//			tempElement->elementData->mAttribution = mXml.getValue("attribution", "");
+//			tempElement->elementData->mSpecies = mXml.getValue("species","");
+//			
+//			int _width		= mXml.getAttribute("IMAGE_PROPERTIES", "WIDTH", 0);
+//			int _height		= mXml.getAttribute("IMAGE_PROPERTIES", "HEIGHT", 0);
+//			int _tileSize	= mXml.getAttribute("IMAGE_PROPERTIES", "TILESIZE", 0);
+//			
+//			// assume 1 slide exists, populate it from the local xml file
+//			
+//			ofxWBCSlideDescription* tempslide = new ofxWBCSlideDescription();
+//			tempslide->mWidth_px		= _width;
+//			tempslide->mHeight_px		= _height;
+//			tempslide->mTileSize_px		= _tileSize;
+//			tempslide->mSlidePath		= mXml.getAttribute("url", "address", "");  //directory containing imageproperties.xml
+//			tempslide->mNumberOfResolutions = 1+ceil(log(ceil((double)(max(tempslide->mWidth_px,tempslide->mHeight_px)/tempslide->mTileSize_px)))/log(2.0));
+//			
+//			// push to slide list
+//			tempElement->elementData->mSlideList.push_back(tempslide);
+//			tempElement->elementData->bHasMetaData = true;
+//			tempElement->elementData->mDisplayName = mXml.getValue("displayName", "");
+//			
+//			
+//			// load any existing traces...doesn't really get used, yet.
+//			int numTraces = mXml.getNumTags("traces");
+//			for(int j = 0; j < numTraces; j++)
+//			{
+//				mXml.pushTag("traces"); // change relative root to <feed>
+//				int numEntries = mXml.getNumTags("trace");
+//				
+//				MSA::Interpolator3D tempContour;
+//				
+//				for (int i = 0; i < numEntries; i++) {
+//					
+//					mXml.pushTag("trace", i);
+//					
+//					int point_count = mXml.getNumTags("point");
+//					
+//					//	printf("[WBC] Found %d points to add\n", point_count);
+//					
+//					for (int j = 0; j < point_count; j++)
+//					{
+//						ofxVec3f temppoint;
+//						temppoint[0] = mXml.getAttribute("point", "x", 0.0, j); 
+//						temppoint[1] = mXml.getAttribute("point", "y", 0.0, j);
+//						temppoint[2] = mXml.getAttribute("point", "z", 0.0, j);		
+//						tempContour.push_back(temppoint);
+//						
+//					}
+//					mXml.popTag();
+//				}
+//				tempElement->elementData->mTraceList.push_back(tempContour);
+//				mXml.popTag(); 
+//			}
+//			
+//			mItems.push_back(tempElement);
+//		}
+//		else {
+//			
+//			printf("no network or cache found, not loading\n");
+//			
+//			// clear the allocated components
+//			delete tempElement->elementData;			
+//			delete tempElement;
+//			tempElement = NULL; //probably redundant
+//			
+//		}
+//		
+//		mXml.popTag();
+//	}
+//	
+//	mXmlDone = true;
+//	
+//	int toc = ofGetElapsedTimeMillis() - tic;
+//	
+//	printf("[WBC - XML] Successfully parsed %d zoomify URLS from local xml in %d ms\n", (int)mItems.size(), toc);
+//	
+//	return true;
+//}
+//
+//
+//
+//bool wbcMenu::loadBrainMapsFromLocalXML(int _count)
+//{
+//	loadBrainMapsFromLocalXML(0, _count);
+//	return true;
+//}
+//
+//
+//bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
+//{
+//	
+//	
+//	int tic = ofGetElapsedTimeMillis();
+//	mXmlFile = "brainmaps-pretty.xml";
+//	if(!mXmlDone) {return false;}
+//	
+//	if(!mXml.loadFile(mXmlFile))
+//	{
+//		printf("[WBC] XML Error in load\n");
+//		return false;
+//	}
+//	
+//	int numberOfTags = mXml.getNumTags("table");	
+//	if (numberOfTags != 1) { return false; }
+//	
+//	mXmlDone = false;
+//	mXml.pushTag("table", 0);
+//	
+//	numberOfTags = mXml.getNumTags("record");
+//	
+//	if (_count == -1) {
+//		_count = numberOfTags;
+//	}
+//	else {
+//	}
+//	
+//	int _itemsToLoad = 0;
+//	if (numberOfTags == 0 ) { return false; }
+//	
+//	if (_start >= numberOfTags) { return false; }
+//	
+//	if ((_start + _count) >= numberOfTags)
+//	{ 
+//		_itemsToLoad = numberOfTags - _start; 
+//	}
+//	else {
+//		_itemsToLoad = _count;
+//	}
+//	
+//	
+//	for (int i = _start; i < _start + _itemsToLoad; i++)
+//	{
+//		mXml.pushTag("record", i + _start);
+//		
+//		// load 
+//		
+//		wbcDynamicElement* tempElement = new wbcDynamicElement();
+//		tempElement->elementData = new wbcDataDescription();
+//		tempElement->title = mXml.getValue("dataset","");
+//		tempElement->elementData->loadFromBrainMaps(tempElement->title);
+//		tempElement->elementData->bmDirectory = mXml.getValue("dirname", "");		
+//		
+//		string thumbFileName = tempElement->title + "_0-0-0.jpg";
+//		
+//		NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+//		NSString *temporaryDirectory = [paths objectAtIndex:0];
+//		NSString* path = [temporaryDirectory stringByAppendingPathComponent:[NSString stringWithUTF8String:thumbFileName.c_str()]];
+//		
+//		bool shouldAddItem = false;
+//		
+//		if ( [[NSFileManager defaultManager] fileExistsAtPath:path isDirectory: false ] ) 
+//		{
+//			printf("Thumbnail exists, loading.\n");
+//			tempElement->baseImage.loadImage([path UTF8String]);
+//			shouldAddItem = true;
+//			
+//		}
+//		else
+//		{
+//			if([ ofxiPhoneGetGLView() reachable])
+//			{
+//				tempElement->imageURL = tempElement->elementData->mURL + tempElement->elementData->bmDirectory + mXml.getValue("thumb_url", "");
+//				printf("Thumb url: %s\n", tempElement->imageURL.c_str());
+//
+//				if(	tempElement->baseImage.loadFromUrl(tempElement->imageURL))
+//				{
+//					tempElement->baseImage.saveImage([path UTF8String]);
+//					shouldAddItem = true;
+//				}
+//			}
+//			else {
+//				// file does not exist and network is unreachable... sorry not loading this today.
+//			}
+//			
+//		}
+//		
+//		
+//		if(shouldAddItem)
+//		{
+//			tempElement->setSize(mGrid.getSize());
+//			tempElement->sharedFont = &mGlobals->mParamFont;
+//			tempElement->disableAllEvents();
+//			tempElement->enableTouchEvents();
+//			tempElement->mGlobals = mGlobals;
+//			
+//			tempElement->parameterID = i;
+//			tempElement->enabled = true;
+//			tempElement->elementData->loadFromBrainMaps(tempElement->title);
+//			tempElement->elementData->bmID = mXml.getValue("Id", 0);
+//			tempElement->elementData->bmOrganSpecies = mXml.getValue("species", "");
+//			tempElement->elementData->bmStain = mXml.getValue("stain", "");
+//			tempElement->elementData->bmMethod = mXml.getValue("method", "");
+//			tempElement->elementData->bmPlane = mXml.getValue("plane", "");
+//			tempElement->elementData->bmArea = mXml.getValue("area", "");
+//			tempElement->elementData->bmSource = mXml.getValue("source", "");
+//			tempElement->elementData->bmSlides = mXml.getValue("slides", 0);
+//			tempElement->elementData->bmDateAdded = mXml.getValue("date_added", "");
+//			tempElement->elementData->bmResolution = mXml.getValue("res", 0.0f);
+//			tempElement->elementData->bmThickness = mXml.getValue("thick", 0.0f);
+//			tempElement->elementData->bmDirectory = mXml.getValue("dirname", "");
+//			
+//			tempElement->elementData->mAttribution = mXml.getValue("source", "");
+//			tempElement->elementData->mSpecies = mXml.getValue("species", "");
+//			tempElement->elementData->mSite = "Brainmaps.org";
+//			tempElement->elementData->mDisplayName = tempElement->title;
+//			
+//			mItems.push_back(tempElement);		
+//		}
+//		else {
+//			
+//			printf("no network or cache found, not loading\n");
+//			
+//			// clear the allocated components
+//			delete tempElement->elementData;			
+//			delete tempElement;
+//			tempElement = NULL; //probably redundant
+//			
+//		}
+//		
+//		mXml.popTag();
+//	}
+//	
+//	mXml.popTag();
+//	mXmlDone = true;
+//	int toc = ofGetElapsedTimeMillis() - tic;
+//	
+////	printf("[WBC] Successfully parsed %d datasets from Brainmaps.org local xml in %d ms.\n", (int)brainmapsList.size(), toc);
+//	
+//	return true;
+//}
+//
+//
+//
+//
 
 
 

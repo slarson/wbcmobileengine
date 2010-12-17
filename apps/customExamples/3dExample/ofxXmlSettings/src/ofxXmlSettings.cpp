@@ -77,6 +77,30 @@ bool ofxXmlSettings::loadFile(const string& xmlFile){
 	return loadOkay;
 }
 
+
+bool ofxXmlSettings::loadFileAbsolute(const string& xmlFile)
+{
+	string fullXmlFile = xmlFile;
+	
+	printf("[XML] Loading %s\n", fullXmlFile.c_str());
+	
+	bool loadOkay = doc.LoadFile(fullXmlFile);
+	
+	//theo removed bool check as it would
+	//return false if the file exists but was
+	//empty
+	
+    //our push pop level should be set to 0!
+	level = 0;
+	
+	storedHandle = TiXmlHandle(&doc);
+	return loadOkay;
+	
+	
+	
+}
+
+
 //---------------------------------------------------------
 void ofxXmlSettings::saveFile(const string& xmlFile){
 

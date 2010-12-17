@@ -50,6 +50,7 @@ class ofxXmlSettings{
         ~ofxXmlSettings();
 
 		void setVerbose(bool _verbose);
+		bool loadFileAbsolute(const string& xmlFile);
 
 		bool loadFile(const string& xmlFile);	//this is not relative to your data/ path - use ofDataPath(...) to make it relative
 		void saveFile(const string& xmlFile);   //this is not relative to your data/ path - use ofDataPath(...) to make it relative

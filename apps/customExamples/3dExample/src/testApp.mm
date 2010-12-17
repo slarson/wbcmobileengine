@@ -337,9 +337,19 @@ void testApp::update(){
 				{
 					if(bShouldAttemptLoad) 
 					{	
-						_Menu->loadLocalSites(true);
-						_Menu->loadBrainMapsFromLocalXML(5);
-						_Menu->transitionTo(WBC_Scene_Menu);
+						
+						if(_Menu->loadCustomSitesIfPresent(true))
+						{
+							printf("loaded custom ok\n");
+						}
+						else {
+							printf("could not find custom xml\n");
+							_Menu->loadLocalSites(true);
+							_Menu->loadBrainMapsFromLocalXML(5);
+							
+						}
+						
+						_Menu->transitionTo(WBC_Scene_Menu);	
 						bShouldAttemptLoad = false;
 					}
 					

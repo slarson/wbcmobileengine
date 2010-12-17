@@ -81,8 +81,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 313039411;
-			PBXWorkspaceStateSaveDate = 313039411;
+			PBXPerProjectTemplateStateSaveDate = 314248218;
+			PBXWorkspaceStateSaveDate = 314248218;
 		};
 		perUserProjectItems = {
 			AC17C6751266C20300499AC1 /* PBXTextBookmark */ = AC17C6751266C20300499AC1 /* PBXTextBookmark */;
@@ -96,6 +96,7 @@
 			AC2F7D081240820400C7E854 /* PBXTextBookmark */ = AC2F7D081240820400C7E854 /* PBXTextBookmark */;
 			AC2F7D0F1240820400C7E854 /* PBXTextBookmark */ = AC2F7D0F1240820400C7E854 /* PBXTextBookmark */;
 			AC32E573127F732A0024468E /* PBXTextBookmark */ = AC32E573127F732A0024468E /* PBXTextBookmark */;
+			AC3EFCBC12BB0C3800CBE280 /* PBXTextBookmark */ = AC3EFCBC12BB0C3800CBE280 /* PBXTextBookmark */;
 			AC46A75612654BFA009EE0D8 /* PBXTextBookmark */ = AC46A75612654BFA009EE0D8 /* PBXTextBookmark */;
 			AC46A75712654BFA009EE0D8 /* PBXTextBookmark */ = AC46A75712654BFA009EE0D8 /* PBXTextBookmark */;
 			AC5645ED1291D7570095C256 /* PBXTextBookmark */ = AC5645ED1291D7570095C256 /* PBXTextBookmark */;
@@ -147,12 +148,12 @@
 			ACD7D76E1231A2050072F2C6 /* PBXTextBookmark */ = ACD7D76E1231A2050072F2C6 /* PBXTextBookmark */;
 			ACE249281294FE7400691F5B /* PBXTextBookmark */ = ACE249281294FE7400691F5B /* PBXTextBookmark */;
 			ACE249291294FE7400691F5B /* PBXTextBookmark */ = ACE249291294FE7400691F5B /* PBXTextBookmark */;
-			ACE2492A1294FE7400691F5B /* PBXTextBookmark */ = ACE2492A1294FE7400691F5B /* PBXTextBookmark */;
 			ACE2492B1294FE7400691F5B /* PBXTextBookmark */ = ACE2492B1294FE7400691F5B /* PBXTextBookmark */;
 			ACE2492C1294FE7400691F5B /* PBXTextBookmark */ = ACE2492C1294FE7400691F5B /* PBXTextBookmark */;
 		};
 		sourceControlManager = AC3F680F1225C7890070C925 /* Source Control */;
 		userBuildSettings = {
+			OBJROOT = "$(SYMROOT)";
 		};
 	};
 	AC17C6751266C20300499AC1 /* PBXTextBookmark */ = {
@@ -271,6 +272,16 @@
 		rType = 0;
 		vrLen = 1295;
 		vrLoc = 3035;
+	};
+	AC3EFCBC12BB0C3800CBE280 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AC8CC1CE122EEADF006C7565 /* ofxiPhone.h */;
+		name = "ofxiPhone.h: 4";
+		rLen = 0;
+		rLoc = 88;
+		rType = 0;
+		vrLen = 2138;
+		vrLoc = 0;
 	};
 	AC3F680F1225C7890070C925 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -1118,16 +1129,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 1259;
-		vrLoc = 0;
-	};
-	ACE2492A1294FE7400691F5B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = AC8CC1CE122EEADF006C7565 /* ofxiPhone.h */;
-		name = "ofxiPhone.h: 12";
-		rLen = 0;
-		rLoc = 332;
-		rType = 0;
-		vrLen = 2138;
 		vrLoc = 0;
 	};
 	ACE2492B1294FE7400691F5B /* PBXTextBookmark */ = {

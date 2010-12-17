@@ -52,10 +52,10 @@ wbcInteractiveScene::wbcInteractiveScene()
 	
 	mTileRender = new wbcTileRender();
 	
-//		mModel = new ofx3DModelLoader();
-//		mModel->loadModel("neuron2.3ds", 3);
-//		mModel->setRotation(0, 180, 0, 0, 0);
-//		mModel->setRotation(1, -75, 0, 0, 0);
+		mModel = new ofx3DModelLoader();
+		mModel->loadModel("neuron2.3ds", 3);
+		mModel->setRotation(0, 180, 0, 0, 0);
+		mModel->setRotation(1, -75, 0, 0, 0);
 //	
 	initializeLights();
 }
@@ -150,28 +150,28 @@ void wbcInteractiveScene::drawScene(bool _showModel)
 		mTileRender->drawTraces();
 	}
 	
-//	if(_showModel)
-//	{
-//		ofSetColor(255, 255, 255, 150);
-//		glEnable(GL_LIGHTING);
-//
-//		GLfloat eqn[4] = {0.0, 0.0, 1.0, 0.0};
-//
-////		GLdouble *eq
-////		get_plane_equation(verts[0], verts[1], verts[2], eq);
-//		
-//		GLuint MY_CLIP_PLANE = GL_CLIP_PLANE0;
-//		glEnable(MY_CLIP_PLANE);
-//		glClipPlanef(MY_CLIP_PLANE, eqn);
-//	//	glClipPlanef(<#GLenum plane#>, <#const GLfloat *equation#>)
-//		
-//		
-//		mModel->draw();
-//		
-//		glDisable(MY_CLIP_PLANE);
-//		
-//		glDisable(GL_LIGHTING);
-//	}
+	if(_showModel)
+	{
+		ofSetColor(255, 255, 255, 150);
+		glEnable(GL_LIGHTING);
+
+		GLfloat eqn[4] = {0.0, 0.0, 1.0, 0.0};
+
+//		GLdouble *eq
+//		get_plane_equation(verts[0], verts[1], verts[2], eq);
+		
+		GLuint MY_CLIP_PLANE = GL_CLIP_PLANE0;
+		glEnable(MY_CLIP_PLANE);
+		glClipPlanef(MY_CLIP_PLANE, eqn);
+	//	glClipPlanef(<#GLenum plane#>, <#const GLfloat *equation#>)
+		
+		
+		mModel->draw();
+		
+		glDisable(MY_CLIP_PLANE);
+		
+		glDisable(GL_LIGHTING);
+	}
 	
 	if (bShowAxes) {  renderAxes();	}
 }

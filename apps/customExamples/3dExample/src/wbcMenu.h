@@ -72,6 +72,7 @@ public:
 	void				transitionTo(wbcScene _sceneMode);
 	wbcDynamicElement*	getSelectedItem();
 	
+	bool				loadCustomSitesIfPresent(bool _withNetwork);
 	bool				loadLocalSites(bool _withNetwork);
 	bool				loadLocalSites(bool _withNetwork, int _start, int _count);
 	

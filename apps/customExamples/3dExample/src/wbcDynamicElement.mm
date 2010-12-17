@@ -78,9 +78,9 @@ void wbcDynamicElement::draw()
 	ofxPoint2f titlePos = pos + ofxPoint2f(4, 16);
 	
 	//int shadowOffset = 2;
-	int frameOffset = 2;
+	int frameOffset = 1;
 	
-	ofSetColor(0xFFFFFF);
+	ofSetColor(0x999999);
 	
 	if (bIsSelected) {
 		
@@ -149,11 +149,11 @@ void wbcDynamicElement::draw()
 		if (bDrawFrame && !bIsZoomed)
 		{
 			ofFill();
-			ofSetColor(0x666666);
+			ofSetColor(0x999999);
 			ofRect(pos[0] - frameOffset, pos[1] - frameOffset, size[0] + 2*frameOffset, size[1] + 2*frameOffset);
 		}
 		
-		ofSetColor(0x666666);
+		ofSetColor(0xFFFFFF);
 		
 		ofxPoint2f drawpos = pos;
 		ofxPoint2f drawsize = size;
@@ -190,7 +190,7 @@ void wbcDynamicElement::draw()
 			ofSetColor(0xFFFFFF);			
 		}
 		else {
-			ofSetColor(0xAAAAAA);			
+			ofSetColor(0xFFFFFF);			
 		}
 
 		baseImage.draw(drawpos[0], drawpos[1], drawsize[0], drawsize[1]);

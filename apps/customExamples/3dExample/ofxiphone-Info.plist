@@ -37,6 +37,12 @@
 	<key>UIApplicationExitsOnSuspend</key>
 	<false/>
 	<key>MinimumOSVersion</key>
-	<string>3.0</string>
+	<string>3.2</string>
+	<key>SBUsesNetwork</key>
+	<true/>
+	<key>UIRequiresPersistentWiFi</key>
+	<false/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 </dict>
 </plist>
