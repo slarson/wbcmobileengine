@@ -299,18 +299,20 @@
 								<string>AC96D80812623DA60038B669</string>
 								<string>BB24DD8B10DA77E000E9C588</string>
 								<string>AC7B8473122C591B00E51062</string>
+								<string>BB24E1F710DAA51900E9C588</string>
+								<string>BB24E22F10DAA8A700E9C588</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FAAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>44</integer>
-									<integer>43</integer>
+									<integer>46</integer>
+									<integer>45</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 81}, {220, 784}}</string>
+							<string>{{0, 0}, {220, 784}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -355,7 +357,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>AC3EFCAC12BB0BE700CBE280</string>
+										<string>AC9829E912BB122600217679</string>
 										<key>history</key>
 										<array>
 											<string>AC7B746E1229DC4F00E51062</string>
@@ -525,7 +527,7 @@
 											<string>ACA54CBF12BB032B00D29A5C</string>
 											<string>ACA54CE012BB063C00D29A5C</string>
 											<string>ACA54CE112BB063C00D29A5C</string>
-											<string>AC3EFC9412BB07E100CBE280</string>
+											<string>AC2BAA1E12BB0DDC002379DC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -539,18 +541,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1149, 609}}</string>
+								<string>{{0, 0}, {1149, 599}}</string>
 								<key>RubberWindowFrame</key>
 								<string>49 35 1391 843 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>609pt</string>
+							<string>599pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>188pt</string>
+							<string>198pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -564,7 +566,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1149, 161}}</string>
+										<string>{{10, 27}, {1149, 171}}</string>
 										<key>RubberWindowFrame</key>
 										<string>49 35 1391 843 0 0 1440 878 </string>
 									</dict>
@@ -648,11 +650,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>AC3EFC8612BB06D100CBE280</string>
+				<string>AC9829E012BB0E1800217679</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>AC3EFC8712BB06D100CBE280</string>
+				<string>AC9829E112BB0E1800217679</string>
 				<string>AC3F6A2A1225DA330070C925</string>
-				<string>AC3EFC8812BB06D100CBE280</string>
+				<string>AC9829E212BB0E1800217679</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -801,14 +803,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>AC3EFCA012BB0B9400CBE280</string>
+				<string>AC9829EA12BB122600217679</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>AC3EFCA112BB0B9400CBE280</string>
-				<string>AC3EFCA212BB0B9400CBE280</string>
-				<string>AC3EFCA312BB0B9400CBE280</string>
-				<string>AC3EFCA412BB0B9400CBE280</string>
-				<string>AC3F6A2A1225DA330070C925</string>
+				<string>AC9829EB12BB122600217679</string>
+				<string>AC9829EC12BB122600217679</string>
+				<string>AC9829ED12BB122600217679</string>
+				<string>AC9829EE12BB122600217679</string>
+				<string>AC9829EF12BB122600217679</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -825,7 +827,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>314248167.83765399</real>
+	<real>314249766.95735103</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -842,8 +844,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>AC3EFCA512BB0B9400CBE280</string>
-		<string>AC3EFCA612BB0B9400CBE280</string>
 		<string>/Users/stoner/code/clean/wbcmobileengine/apps/customExamples/3dExample/iPhoneEmptyExample.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
