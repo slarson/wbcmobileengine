@@ -714,8 +714,11 @@ void testApp::handleGui(int parameterId, int task, void* data, int length)
 				// home button
 				if (!bShowingOverlayGui) {
 					bShowingOverlayGui = true;
-					activeGui->mObjects[0]->enable();
-					activeGui->mObjects[1]->enable();
+					for (int i = 0; i < activeGui->mObjects.size(); i++) 
+					{
+						activeGui->mObjects[i]->enable();
+					}
+					//activeGui->mObjects[0]->enable();
 					_backButton->bIsSelected = false;
 					_backButton->enabled = true;
 					_resetViewButton->enabled = true;
@@ -723,8 +726,11 @@ void testApp::handleGui(int parameterId, int task, void* data, int length)
 				else {
 					
 					bShowingOverlayGui = false;
-					activeGui->mObjects[0]->disable();
-					activeGui->mObjects[1]->disable();
+					for (int i = 0; i < activeGui->mObjects.size(); i++) 
+					{
+						activeGui->mObjects[i]->disable();
+					}
+					//activeGui->mObjects[0]->disable();
 					_backButton->enabled = false;
 					_resetViewButton->enabled=false;
 					
