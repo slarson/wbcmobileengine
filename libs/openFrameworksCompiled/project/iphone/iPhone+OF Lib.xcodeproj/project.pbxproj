@@ -205,7 +205,7 @@
 		ACC33116128D367B00A96C01 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		BB16EBD10F2B2A9500518274 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BB16EBD80F2B2AB500518274 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BB24DED610DA7A3F00E9C588 /* libofxiPhoneOFLib_iphonesimulator _Release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libofxiPhoneOFLib_iphonesimulator _Release.a"; path = "libofxiPhoneOFLib_iphoneos _Release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB24DED610DA7A3F00E9C588 /* libofxiPhoneOFLib_iphoneos _Debug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libofxiPhoneOFLib_iphoneos _Debug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB24DEF710DA7BEF00E9C588 /* ofAppBaseWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofAppBaseWindow.h; sourceTree = "<group>"; };
 		BB24DEFA10DA7BEF00E9C588 /* ofAppRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofAppRunner.cpp; sourceTree = "<group>"; };
 		BB24DEFB10DA7BEF00E9C588 /* ofAppRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofAppRunner.h; sourceTree = "<group>"; };
@@ -298,7 +298,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB24DED610DA7A3F00E9C588 /* libofxiPhoneOFLib_iphonesimulator _Release.a */,
+				BB24DED610DA7A3F00E9C588 /* libofxiPhoneOFLib_iphoneos _Debug.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -788,7 +788,7 @@
 			);
 			name = "iPhone+OF Static Library";
 			productName = "Static Library";
-			productReference = BB24DED610DA7A3F00E9C588 /* libofxiPhoneOFLib_iphonesimulator _Release.a */;
+			productReference = BB24DED610DA7A3F00E9C588 /* libofxiPhoneOFLib_iphoneos _Debug.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -860,8 +860,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mehmet Akten";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../../../poco/include;
@@ -869,8 +870,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2B6A4F8-E7E4-4A49-84A2-821B26E52F18";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_LDFLAGS = "-w";
 			};
@@ -880,7 +881,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/iphone/";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -902,8 +903,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "ofxiPhoneOFLib_${PLATFORM_NAME} _Debug";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -913,8 +914,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stephen Larson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../../../poco/include;
@@ -922,8 +924,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C5901F76-E3D2-46E2-9E01-038D67ED7CFF";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_LDFLAGS = "-w";
 			};
@@ -933,7 +935,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/iphone/";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -955,8 +957,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "ofxiPhoneOFLib_${PLATFORM_NAME} _Debug";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -966,7 +968,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/iphone/";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -988,8 +990,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "ofxiPhoneOFLib_${PLATFORM_NAME} _Debug";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -999,7 +1001,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stephen Larson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/iphone/";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1021,8 +1023,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "ofxiPhoneOFLib_${PLATFORM_NAME} _Release";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C5901F76-E3D2-46E2-9E01-038D67ED7CFF";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				ZERO_LINK = NO;
@@ -1033,7 +1035,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/iphone/";
 				HEADER_SEARCH_PATHS = (
 					../../../poco/include,
@@ -1052,8 +1054,8 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "ofxiPhoneOFLib_${PLATFORM_NAME} _Distribution";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1063,16 +1065,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MSA Visuals Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../../../poco/include;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CBB7D4DA-CBD7-4672-8C35-CB67CB1FEC3A";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Distribution;
@@ -1081,8 +1084,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mehmet Akten";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../../../poco/include;
@@ -1090,8 +1094,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2B6A4F8-E7E4-4A49-84A2-821B26E52F18";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_LDFLAGS = "-w";
 			};
@@ -1101,16 +1105,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stephen Larson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ../../../poco/include;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C5901F76-E3D2-46E2-9E01-038D67ED7CFF";
-				SDKROOT = iphoneos4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

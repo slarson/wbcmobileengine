@@ -64,6 +64,7 @@ bool ofImage::loadImage(string fileName){
 	bLoadedOk = loadImageIntoPixels(fileName, myPixels);
 	
 	if (bLoadedOk == true){
+		swapRgb(myPixels);
 		if (myPixels.bAllocated == true && bUseTexture == true){
 			tex.allocate(myPixels.width, myPixels.height, myPixels.glDataType);
 		}
@@ -394,6 +395,7 @@ inline void  ofImage::allocatePixels(ofPixels &pix, int width, int height, int b
 FIBITMAP *  ofImage::getBmpFromPixels(ofPixels &pix){
 	
 	FIBITMAP * bmp = NULL;
+	//swapRgb(pix);
 	
 	int w						= pix.width;
 	int h						= pix.height;
@@ -401,7 +403,8 @@ FIBITMAP *  ofImage::getBmpFromPixels(ofPixels &pix){
 	int bpp						= pix.bitsPerPixel;
 	int bytesPerPixel			= pix.bitsPerPixel / 8;
 	
-	bmp							= FreeImage_ConvertFromRawBits(pixels, w,h, w*bytesPerPixel, bpp, 0,0,0, true);
+
+	bmp							= FreeImage_ConvertFromRawBits(pixels, w,h, w*bytesPerPixel, bpp, FI_RGBA_RED_MASK, FI_RGBA_GREEN_MASK, FI_RGBA_BLUE_MASK, true);
 	
 	//this is for grayscale images they need to be paletted from: http://sourceforge.net/forum/message.php?msg_id=2856879
 	if( pix.ofImageType == OF_IMAGE_GRAYSCALE ){
@@ -576,7 +579,7 @@ bool ofImage::loadImageIntoPixels(string fileName, ofPixels &pix){
 		// anyone game?
 		//
 		
-#ifdef TARGET_LITTLE_ENDIAN
+#ifdef TARGET_LITTLE_ENDIAN || TARGET_OF_IPHONE
 		if (byteCount != 1) swapRgb(pix);
 #endif
 		//------------------------------------------
@@ -605,13 +608,13 @@ void  ofImage::saveImageFromPixels(string fileName, ofPixels &pix){
 	}
 	
 	
-#ifdef TARGET_LITTLE_ENDIAN
+#ifdef TARGET_LITTLE_ENDIAN || TARGET_OF_IPHONE
 	if (pix.bytesPerPixel != 1) swapRgb(pix);
 #endif
 	
 	FIBITMAP * bmp	= getBmpFromPixels(pix);
 	
-#ifdef TARGET_LITTLE_ENDIAN
+#ifdef TARGET_LITTLE_ENDIAN || TARGET_OF_IPHONE
 	if (pix.bytesPerPixel != 1) swapRgb(pix);
 #endif
 	
