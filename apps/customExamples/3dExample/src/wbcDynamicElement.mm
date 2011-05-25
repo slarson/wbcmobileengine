@@ -517,8 +517,6 @@ void wbcDynamicElement::onDoubleTap(int x, int y, int button)
 			
 			bIsSelected = true;
 			mGlobals->mListener->handleGui(parameterID, 0, nil, 0);			
-			
 		}	
-		
 	}
 }

@@ -44,6 +44,7 @@
 
 #include "wbcDynamicElement.h"
 #include "wbcGridLayout.h"
+#include "ATArrayView.h"
 
 class wbcMenu : public ofxHttpEventListener
 {
@@ -98,11 +99,15 @@ public:
 	
 	void			scaleGrid(float _scale);
 	
+	ATArrayView* _arrayView;
+	
 	ofImage			headerImg;
 	ofTrueTypeFont	fHelvetica;
 	
 	ofxGuiGlobals*	mGlobals; // 
 	wbcGridLayout	mGrid;
+	
+	vector<wbcDataDescription*> elementDatasets;
 	
 	vector<wbcDynamicElement*>	mItems;
 	

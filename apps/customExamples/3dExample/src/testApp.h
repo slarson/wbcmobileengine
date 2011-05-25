@@ -182,8 +182,4 @@ public:
 	// apple specific code here
 
 	MPMoviePlayerController* _startMovie;
-	
-
-	
-	
 };

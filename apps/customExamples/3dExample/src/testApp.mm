@@ -609,9 +609,6 @@ void testApp::handleGui(int parameterId, int task, void* data, int length)
 				}
 				
 				
-				
-				
-				
 				break;
 				
 			case 2:
@@ -918,16 +915,17 @@ void testApp::touchDown(ofTouchEventArgs &touch){
 	}
 	else 
 	{
+		printf("touching has happend\n");
 		
 		switch (currentScene) {
 			case WBC_Scene_Menu:
 				break;
 			case WBC_Scene_IntroMovie:
-				
 				[_startMovie stop];
 				[[_startMovie view] removeFromSuperview];
 				[_startMovie release];
 				
+				printf("switching to menu");
 				_Menu->transitionTo(WBC_Scene_Menu);
 				currentScene = WBC_Scene_Menu;
 				

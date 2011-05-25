@@ -33,7 +33,8 @@
  
  ***********************************************************************************/
 
-#include "wbcMenu.h"
+//#include "wbcMenu.h"
+#include "DemoItemView.h"
 
 #pragma mark Constructors and destructors
 
@@ -67,9 +68,14 @@ wbcMenu::wbcMenu()
 	//	
 	//	[ofxiPhoneGetGLView() addSubview:descriptionView];
 	//	
-	//	CGAffineTransform transform = CGAffineTransformMakeRotation(- M_PI / 2);
-	//	descriptionView.transform = transform;
+
+				//mGrid.setLayout(ofxPoint2f(400, 55), ofxPoint2f(615, 708));
+	_arrayView = [[ATArrayView alloc] initWithFrame:CGRectMake(50,355,615,708)];
+	[ofxiPhoneGetGLView() addSubview:_arrayView];
+	[_arrayView release];
 	
+	CGAffineTransform transform = CGAffineTransformMakeRotation(M_PI / 2);
+	_arrayView.transform = transform;
 }
 
 
@@ -79,6 +85,7 @@ wbcMenu::wbcMenu()
 
 void wbcMenu::update()
 {	
+	
 	for (int i = 0; i < mItems.size(); i++) {
 		wbcDynamicElement* tempObject = mItems.at(i);
 		
@@ -99,6 +106,9 @@ void wbcMenu::disableAllElements()
 		//			tempObject->update();
 		//		}
 	}
+	
+	[_arrayView hide:YES];
+	[_arrayView interact:NO];
 }
 
 void wbcMenu::enableAllElements()
@@ -258,6 +268,7 @@ bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
 					tempElement->imageURL = mXml.getAttribute("url", "address", "") + "TileGroup0/0-0-0.jpg";
 					tempElement->baseImage.loadFromUrl(tempElement->imageURL);
 					tempElement->baseImage.saveImage([path UTF8String]);
+					
 					shouldAddItem = true;
 				}
 				else {
@@ -265,8 +276,8 @@ bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
 				}
 			}
 			
-			
-			
+			[_arrayView insert:path];
+			printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
 			
 			if(shouldAddItem)
 			{
@@ -340,6 +351,7 @@ bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
 				
 				mItems.push_back(tempElement);
 			}
+												
 			else {
 				
 				printf("no network or cache found, not loading\n");
@@ -468,13 +480,15 @@ bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
 				tempElement->baseImage.loadFromUrl(tempElement->imageURL);
 				tempElement->baseImage.saveImage([path UTF8String]);
 				shouldAddItem = true;
+				
 			}
 			else {
 				// file does not exist and network is unreachable... sorry not loading this today.
 			}
 		}
 		
-		
+		[_arrayView insert:path];
+		printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
 		
 		
 		if(shouldAddItem)
@@ -548,6 +562,7 @@ bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
 //			}
 			
 			mItems.push_back(tempElement);
+			
 		}
 		else {
 			
@@ -648,7 +663,6 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 			printf("Thumbnail exists, loading.\n");
 			tempElement->baseImage.loadImage([path UTF8String]);
 			shouldAddItem = true;
-			
 		}
 		else
 		{
@@ -669,6 +683,8 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 			
 		}
 		
+		[_arrayView insert:path];
+		printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
 		
 		if(shouldAddItem)
 		{
@@ -1301,6 +1317,7 @@ bool wbcMenu::loadZebraFish(int _count)
 			
 			string thumbFileName = tempElement->title + ".jpg";
 			
+			
 			NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 			NSString *temporaryDirectory = [paths objectAtIndex:0];
 			NSString* path = [temporaryDirectory stringByAppendingPathComponent:[NSString stringWithUTF8String:thumbFileName.c_str()]];
@@ -1308,7 +1325,6 @@ bool wbcMenu::loadZebraFish(int _count)
 			if ( [[NSFileManager defaultManager] fileExistsAtPath:path isDirectory: false ] ) 
 			{
 				tempElement->baseImage.loadImage([path UTF8String]);
-				
 			}
 			else
 			{
@@ -1320,6 +1336,9 @@ bool wbcMenu::loadZebraFish(int _count)
 				tempElement->baseImage.loadFromUrl(requestURL);
 				tempElement->baseImage.saveImage([path UTF8String]);
 			}
+			
+			[_arrayView insert:path];
+			printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);	
 			
 			int _width		= mXml.getAttribute("IMAGE_PROPERTIES", "WIDTH", 0);
 			int _height		= mXml.getAttribute("IMAGE_PROPERTIES", "HEIGHT", 0);
@@ -1451,7 +1470,6 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _count)
 			if ( [[NSFileManager defaultManager] fileExistsAtPath:path isDirectory: false ] ) 
 			{
 				tempElement->baseImage.loadImage([path UTF8String]);
-				
 				//bool loaded = tempElement->baseImage.loadImage(thumbFileName);
 			}
 			else
@@ -1461,6 +1479,9 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _count)
 				tempElement->baseImage.loadFromUrl(requestURL);
 				tempElement->baseImage.saveImage([path UTF8String]);
 			}
+			
+			[_arrayView insert:path];
+			printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
 		}
 		
 		mItems.push_back(tempElement);
@@ -1532,6 +1553,7 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _startIndex, int _count)
 		tempElement->enabled = true;
 		
 		int tempSiteFormat = WBC_CCDB;
+			
 		if (tempSiteFormat == WBC_CCDB) {
 			
 			tempElement->elementData->loadFromCCDB(mXml.getValue("url", "") + tempElement->title);
@@ -1546,7 +1568,6 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _startIndex, int _count)
 			if ( [[NSFileManager defaultManager] fileExistsAtPath:path isDirectory: false ] ) 
 			{
 				tempElement->baseImage.loadImage([path UTF8String]);
-				
 				//bool loaded = tempElement->baseImage.loadImage(thumbFileName);
 			}
 			else
@@ -1556,6 +1577,9 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _startIndex, int _count)
 				tempElement->baseImage.loadFromUrl(requestURL);
 				tempElement->baseImage.saveImage([path UTF8String]);
 			}
+			
+			[_arrayView insert:path];
+			printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
 		}
 		
 		mItems.push_back(tempElement);
@@ -1700,6 +1724,9 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 			
 		case WBC_Scene_Menu:
 			
+			//[_arrayView hide:NO];
+			//[_arrayView interact:YES];
+			
 			for (int i = 0; i < mItems.size(); i++) {
 				wbcDynamicElement* tempObject = mItems.at(i);
 				
@@ -1708,11 +1735,12 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 				tempObject->animateXYandScale(mGrid.getPositionForIndex(i), mGrid.getSize(), 0.11, 0);
 				
 			}
-			
 			break;
 			
 			
 		case WBC_Scene_Description:
+			[_arrayView hide:NO];
+			[_arrayView interact:YES];
 			
 			for (int i = 0; i < mItems.size(); i++) {
 				
@@ -1734,6 +1762,8 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 			break;
 			
 		case WBC_Scene_Detail:
+			[_arrayView hide:YES];
+			[_arrayView interact:NO];
 			
 			for (int i = 0; i < mItems.size(); i++) {
 				wbcDynamicElement* tempObject = mItems.at(i);
@@ -1819,9 +1849,6 @@ void wbcMenu::drawBaseMenu()
 		ofFill();
 		ofRect(10.0f, 35.0f, ofGetWidth()-20, 4.0f);		
 		
-		ofSetColor(0x222222);
-		ofRect(mGrid.mPosition[0], mGrid.mPosition[1], mGrid.mSize[0], mGrid.mSize[1]);
-		
 		ofSetColor(0xFFFFFF);
 		mGlobals->mHeadFont.drawString("Whole Brain Catalog Mobile", 10, 20);
 		
@@ -1835,8 +1862,7 @@ void wbcMenu::drawBaseMenu()
 				
 			}
 		}
-		
-		
+
 		// do ipad
 		ofSetColor(0, 200, 0, 255);
 		mGlobals->mHeadFont.drawString("Double tap to select", 50, 70);
@@ -1847,12 +1873,30 @@ void wbcMenu::drawBaseMenu()
 			tempObject->draw();			
 		}		
 	}
+	
 	else 
 	{		
 		ofBackground(0, 0, 0);
 		
-		ofSetColor(0x222222);
-		ofRect(mGrid.mPosition[0], mGrid.mPosition[1], mGrid.mSize[0], mGrid.mSize[1]);
+		//ofSetColor(0x222222);
+		//ofRect(mGrid.mPosition[0], mGrid.mPosition[1], mGrid.mSize[0], mGrid.mSize[1]);
+		
+		/*_scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,200,200)];
+		_scrollView.scrollEnabled = YES;
+		_scrollView.pagingEnabled = NO;
+		_scrollView.directionalLockEnabled = YES;
+		_scrollView.showsVerticalScrollIndicator = YES;
+		_scrollView.showsHorizontalScrollIndicator = NO;
+		//_scrollView.delegate = ofxiPhoneGetGLView();
+		_scrollView.backgroundColor = [UIColor grayColor];
+		_scrollView.autoresizesSubviews = YES;
+		_scrollView.frame = CGRectMake(0, mGrid.mPosition[0], mGrid.mPosition[1] + mGrid.mSize[1], mGrid.mPosition[0] + mGrid.mSize[0]);//CGRectMake(mGrid.mPosition[0], mGrid.mPosition[1], mGrid.mPosition[0] + mGrid.mSize[0], mGrid.mPosition[1] + mGrid.mSize[1]);
+		
+		//CGAffineTransform transform = CGAffineTransformMakeRotation(M_PI);
+		//_scrollView.transform = transform;
+		
+		[ofxiPhoneGetGLView() addSubview:_scrollView];
+		[_scrollView release];*/
 		
 		ofSetColor(0xFFFFFF);
 		mGlobals->mHeadFont.drawString("Whole Brain Catalog Mobile", 10, 20);
@@ -1864,7 +1908,7 @@ void wbcMenu::drawBaseMenu()
 			if (tempObject->enabled && !tempObject->bIsSelected) {
 				
 				//tempObject->update();
-				tempObject->draw();
+				//tempObject->draw();
 				
 			}
 		}
@@ -1902,9 +1946,6 @@ void wbcMenu::drawDetailMenu()
 		
 		ofFill();
 		ofRect(10.0f, 35.0f, ofGetWidth()-20, 4.0f);		
-		
-		ofSetColor(0x222222);
-		ofRect(mGrid.mPosition[0], mGrid.mPosition[1], mGrid.mSize[0], mGrid.mSize[1]);
 		
 		for (int i = 0; i < mItems.size(); i++) {
 			wbcDynamicElement* tempObject = mItems.at(i);
