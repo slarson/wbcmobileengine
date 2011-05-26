@@ -55,9 +55,6 @@
 /* Moving setup here, allows for ATArrayView to work with InterfaceBuilder since
 awakeFromNib is called instead of initWithFrame */
 -(void) setup {
-    _visibleItems = [[NSMutableSet alloc] init];
-    _recycledItems = [[NSMutableSet alloc] init];
-
 	if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
 		_itemSize = CGSizeMake(130, 130);
 	}

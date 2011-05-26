@@ -164,7 +164,6 @@ void wbcMenu::loadResources(ofxGuiGlobals* guiPtr)
 	}
 	
 	bIsLoaded = true;
-	transitionTo(WBC_Scene_Menu);
 	
 }
 
@@ -1724,8 +1723,8 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 			
 		case WBC_Scene_Menu:
 			
-			//[_arrayView hide:NO];
-			//[_arrayView interact:YES];
+			[_arrayView hide:NO];
+			[_arrayView interact:NO];
 			
 			for (int i = 0; i < mItems.size(); i++) {
 				wbcDynamicElement* tempObject = mItems.at(i);
@@ -1740,7 +1739,7 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 			
 		case WBC_Scene_Description:
 			[_arrayView hide:NO];
-			[_arrayView interact:YES];
+			[_arrayView interact:NO];
 			
 			for (int i = 0; i < mItems.size(); i++) {
 				
@@ -1801,6 +1800,7 @@ wbcDynamicElement*	wbcMenu::getSelectedItem()
 		
 		wbcDynamicElement* tempObject = mItems.at(i);
 		if (tempObject->bIsSelected) {
+			//printf("selected object index:%d", i);
 			
 			return tempObject;
 			
