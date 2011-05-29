@@ -71,11 +71,12 @@ wbcMenu::wbcMenu()
 
 				//mGrid.setLayout(ofxPoint2f(400, 55), ofxPoint2f(615, 708));
 	_arrayView = [[ATArrayView alloc] initWithFrame:CGRectMake(50,355,615,708)];
-	[ofxiPhoneGetGLView() addSubview:_arrayView];
-	[_arrayView release];
-	
+
 	CGAffineTransform transform = CGAffineTransformMakeRotation(M_PI / 2);
 	_arrayView.transform = transform;
+	
+	[ofxiPhoneGetGLView() addSubview:_arrayView];
+	[_arrayView release];
 }
 
 
@@ -275,9 +276,6 @@ bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
 				}
 			}
 			
-			[_arrayView insert:path];
-			printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
-			
 			if(shouldAddItem)
 			{
 				tempElement->title = mXml.getValue("title","");
@@ -349,6 +347,9 @@ bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
 //				}
 				
 				mItems.push_back(tempElement);
+				[_arrayView insert:path];
+				DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
+				[temp menuTest:this];
 			}
 												
 			else {
@@ -486,10 +487,6 @@ bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
 			}
 		}
 		
-		[_arrayView insert:path];
-		printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
-		
-		
 		if(shouldAddItem)
 		{
 			tempElement->title = mXml.getValue("title","");
@@ -561,7 +558,9 @@ bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
 //			}
 			
 			mItems.push_back(tempElement);
-			
+			[_arrayView insert:path];
+			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
+			[temp menuTest:this];
 		}
 		else {
 			
@@ -682,9 +681,6 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 			
 		}
 		
-		[_arrayView insert:path];
-		printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
-		
 		if(shouldAddItem)
 		{
 			tempElement->setSize(mGrid.getSize());
@@ -715,6 +711,9 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 			tempElement->elementData->mDisplayName = tempElement->title;
 			
 			mItems.push_back(tempElement);		
+			[_arrayView insert:path];
+			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
+			[temp menuTest:this];
 		}
 		else {
 			
@@ -1336,9 +1335,6 @@ bool wbcMenu::loadZebraFish(int _count)
 				tempElement->baseImage.saveImage([path UTF8String]);
 			}
 			
-			[_arrayView insert:path];
-			printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);	
-			
 			int _width		= mXml.getAttribute("IMAGE_PROPERTIES", "WIDTH", 0);
 			int _height		= mXml.getAttribute("IMAGE_PROPERTIES", "HEIGHT", 0);
 			int _tileSize	= mXml.getAttribute("IMAGE_PROPERTIES", "TILESIZE", 0);
@@ -1354,9 +1350,13 @@ bool wbcMenu::loadZebraFish(int _count)
 			tempElement->elementData->mSlideList.push_back(tempslide);
 			tempElement->elementData->bHasMetaData = true;
 			
+			[_arrayView insert:path];
+			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
+			[temp menuTest:this];
 		}
 		
 		mItems.push_back(tempElement);
+
 		
 		mXml.popTag();
 	}
@@ -1480,7 +1480,8 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _count)
 			}
 			
 			[_arrayView insert:path];
-			printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
+			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
+			[temp menuTest:this];
 		}
 		
 		mItems.push_back(tempElement);
@@ -1578,7 +1579,8 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _startIndex, int _count)
 			}
 			
 			[_arrayView insert:path];
-			printf("itemURLS count when adding:%d\n", [_arrayView.itemURLs count]);
+			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
+			[temp menuTest:this];
 		}
 		
 		mItems.push_back(tempElement);
@@ -1748,13 +1750,10 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 				if (tempObject->bIsSelected) {
 					
 					tempObject->elementData->populate(); // calls appropriate method to request data
+					//tempObject->setPos(mDescriptionPosition.x, mDescriptionPosition.y);
+					//tempObject->setSize(mDescriptionSize.x, mDescriptionSize.y);
 					tempObject->animateXYandScale(mDescriptionPosition, mDescriptionSize, 0.11, 0);
 					tempObject->enabled = true;
-				}
-				else {
-					
-					//tempObject->enabled = false;
-					tempObject->disableTouchEvents();
 				}
 			}
 			
@@ -1768,7 +1767,7 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 				wbcDynamicElement* tempObject = mItems.at(i);
 				
 				if (tempObject->bIsSelected) {
-					//tempObject->animateXYandScale(mDetailPosition, mDetailSize, 0.08, 0);
+					tempObject->animateXYandScale(mDetailPosition, mDetailSize, 0.08, 0);
 					tempObject->animateFullView(0.11, 0);
 				}
 				else {
@@ -1871,32 +1870,15 @@ void wbcMenu::drawBaseMenu()
 		wbcDynamicElement* tempObject = getSelectedItem();
 		if (tempObject) {
 			tempObject->draw();			
-		}		
+		}
 	}
 	
 	else 
 	{		
 		ofBackground(0, 0, 0);
 		
-		//ofSetColor(0x222222);
-		//ofRect(mGrid.mPosition[0], mGrid.mPosition[1], mGrid.mSize[0], mGrid.mSize[1]);
-		
-		/*_scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,200,200)];
-		_scrollView.scrollEnabled = YES;
-		_scrollView.pagingEnabled = NO;
-		_scrollView.directionalLockEnabled = YES;
-		_scrollView.showsVerticalScrollIndicator = YES;
-		_scrollView.showsHorizontalScrollIndicator = NO;
-		//_scrollView.delegate = ofxiPhoneGetGLView();
-		_scrollView.backgroundColor = [UIColor grayColor];
-		_scrollView.autoresizesSubviews = YES;
-		_scrollView.frame = CGRectMake(0, mGrid.mPosition[0], mGrid.mPosition[1] + mGrid.mSize[1], mGrid.mPosition[0] + mGrid.mSize[0]);//CGRectMake(mGrid.mPosition[0], mGrid.mPosition[1], mGrid.mPosition[0] + mGrid.mSize[0], mGrid.mPosition[1] + mGrid.mSize[1]);
-		
-		//CGAffineTransform transform = CGAffineTransformMakeRotation(M_PI);
-		//_scrollView.transform = transform;
-		
-		[ofxiPhoneGetGLView() addSubview:_scrollView];
-		[_scrollView release];*/
+		ofSetColor(0x222222);
+		ofRect(mGrid.mPosition[0], mGrid.mPosition[1], mGrid.mSize[0], mGrid.mSize[1]);
 		
 		ofSetColor(0xFFFFFF);
 		mGlobals->mHeadFont.drawString("Whole Brain Catalog Mobile", 10, 20);
@@ -1908,7 +1890,7 @@ void wbcMenu::drawBaseMenu()
 			if (tempObject->enabled && !tempObject->bIsSelected) {
 				
 				//tempObject->update();
-				//tempObject->draw();
+				tempObject->draw();
 				
 			}
 		}
@@ -1921,11 +1903,8 @@ void wbcMenu::drawBaseMenu()
 		wbcDynamicElement* tempObject = getSelectedItem();
 		if (tempObject) {
 			tempObject->draw();			
-		}		
+		}
 	}
-	
-	
-	//[descriptionView drawRect:CGRectMake(100,100, 300, 300)];
 }
 
 void wbcMenu::drawDetailMenu()
@@ -1957,6 +1936,8 @@ void wbcMenu::drawDetailMenu()
 		ofSetColor(0xFFFFFF);
 		wbcDynamicElement* tempObject = getSelectedItem();
 		if (tempObject) {
+			printf("drawing the selected object");
+			
 			tempObject->draw();
 			
 			if (tempObject->elementData->bHasMetaData && tempObject->bIsSelected)

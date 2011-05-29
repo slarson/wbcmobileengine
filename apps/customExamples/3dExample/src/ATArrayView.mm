@@ -125,15 +125,14 @@ awakeFromNib is called instead of initWithFrame */
 #pragma mark Data
 
 - (void)reloadData {
-    //_itemCount = [_delegate numberOfItemsInArrayView:self];
 	_itemCount = [_itemURLs count];
 	[self layoutSubviews];
 	
     // recycle all items
-	for (UIView *view in _visibleItems) {
+	/*for (UIView *view in _visibleItems) {
         [self recycleItem:view];
     }
-    [_visibleItems removeAllObjects];
+    [_visibleItems removeAllObjects];*/
 
     [self configureItems:NO];
 }
@@ -149,8 +148,10 @@ awakeFromNib is called instead of initWithFrame */
 }
 
 - (UIView *)viewForItemInArrayView:(NSInteger)index {
-	DemoItemView *itemView = (DemoItemView *) [self dequeueReusableItem];
+	//has this index been created before?
+	DemoItemView *itemView = (DemoItemView *) [self dequeueReusableItem:index];
 	
+	//has not, need to create it
 	if (itemView == nil) {
 		UIImage* image;
 		if (index < [_itemURLs count]) {
@@ -158,12 +159,28 @@ awakeFromNib is called instead of initWithFrame */
 						 
 			image = [[UIImage alloc] initWithContentsOfFile:str];
 			itemView = [[[DemoItemView alloc] initWithImage:image] autorelease];
+			itemView.tag = index;
 		}
 	}
 	
 	return itemView;
 }
 
+- (UIView *)viewItemInArrayViewAtIndex:(NSInteger)index {
+	for (UIView *item in _visibleItems)
+	{
+		if (item.tag == index)
+			return item;
+	}
+	
+	for (UIView *item in _recycledItems)
+	{
+		if (item.tag == index)
+			return item;
+	}
+	
+	return nil;
+}
 - (void)configureItems:(BOOL)reconfigure {
     // update content size if needed
     CGSize contentSize = CGSizeMake(self.bounds.size.width,
@@ -190,21 +207,22 @@ awakeFromNib is called instead of initWithFrame */
     // add missing items
     for (int index = firstItem; index <= lastItem; index++) {
         UIView *item = [self viewForItemAtIndex:index];
-        if (item == nil) {
-            item = [self viewForItemInArrayView:index];
-					if (item != nil) {
-            [_scrollView addSubview:item];
-            [_visibleItems addObject:item];
-						[self configureItem:item forIndex:index];
-					}
-        } else if (!reconfigure) {
-            continue;
-        }
+			if (item == nil) {
+				item = [self viewForItemInArrayView:index];
+
+				[_scrollView addSubview:item];
+				[_visibleItems addObject:item];
+			} 
+			else if (!reconfigure) {
+				continue;
+			}
+			
+			[self configureItem:item forIndex:index];
     }
 }
 
 - (void)configureItem:(UIView *)item forIndex:(NSInteger)index {
-    item.tag = index;
+    //item.tag = index;
     item.frame = [self rectForItemAtIndex:index];
     [item setNeedsDisplay]; // just in case
 }
@@ -274,12 +292,18 @@ awakeFromNib is called instead of initWithFrame */
     [item removeFromSuperview];
 }
 
-- (UIView *)dequeueReusableItem {
-    UIView *result = [_recycledItems anyObject];
+- (UIView *)dequeueReusableItem:(NSInteger)index {
+	for (UIView *item in _recycledItems) {
+		if (item.tag == index)
+			return item;
+	}
+	return nil;
+	
+    /*UIView *result = [_recycledItems anyObject];
     if (result) {
         [_recycledItems removeObject:[[result retain] autorelease]];
     }
-    return result;
+    return result;*/
 }
 
 

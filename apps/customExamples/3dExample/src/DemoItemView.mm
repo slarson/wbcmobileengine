@@ -14,6 +14,7 @@
 @synthesize	imageURL= m_imageURL;
 @synthesize websiteURL= m_websiteURL;
 @synthesize wbcDataDescrCount = _wbcDataDescrCount;
+@synthesize Menu = _Menu;
 
 
 - (id)initWithImage:(UIImage *)image {
@@ -65,18 +66,25 @@
 			isCenterSet = TRUE;
 	}
 	
-	if (!_isSelected)
+	if (_isSelected == false)
 	{
-		_isSelected = !_isSelected;
+		_isSelected = true;
 		[UIView animateWithDuration: 1.0 
 													delay: 0.0
 												options: UIViewAnimationTransitionCurlDown
 										 animations:^{
-												self.alpha = 0.5;
+												self.alpha = 0.3;
 											  //self.transform = CGAffineTransformMakeScale(1.55, 1.55);
-												self.center = CGPointMake(-512, 0);
+												//self.center = CGPointMake(-512, 0);
 									   }
 										 completion:nil];
+
+		_Menu->mItems.at(self.tag)->bIsSelected = true;
+		_Menu->transitionTo(WBC_Scene_Description);
+		if (_Menu->bIsLoaded) {
+			printf("drawing detail menu\n");
+			_Menu->drawDetailMenu();
+		}
 	}
 	else 
 	{
@@ -86,7 +94,7 @@
 												options: UIViewAnimationTransitionFlipFromLeft
 										 animations:^{
 											 self.alpha = 1.0;
-											 self.center = CGPointMake(cent.x, cent.y);
+											 //self.center = CGPointMake(cent.x, cent.y);
 											 //self.transform = CGAffineTransformMakeScale(.35, .35);
 										}
 										completion:nil];
@@ -97,5 +105,9 @@
 	printf("I have been single tapped\n");	
 }
 
+-(void)menuTest:(wbcMenu*) test {
+	//printf("setting menu for DemoItemView with index:%d\n", self.tag);
+	self.Menu = test;
+}
 
 @end

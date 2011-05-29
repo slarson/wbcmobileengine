@@ -27,6 +27,7 @@
     CGFloat         _rowGap;
     CGFloat         _colGap;
     UIEdgeInsets    _effectiveInsets;
+	
 }
 
 /* Depending on memory, I you can use the preload buffer to buffer additional rows that
@@ -64,12 +65,13 @@ This allows for smoother scrolling and minimizing 'jerkyness' when loading netwo
 
 - (UIView *)viewForItemAtIndex:(NSUInteger)index;  // nil if not loaded
 
-- (UIView *)dequeueReusableItem;  // nil if none
+- (UIView *)dequeueReusableItem:(NSInteger)index;  // nil if none
 
 - (CGRect)rectForItemAtIndex:(NSUInteger)index;
 
 - (UIView *)viewForItemInArrayView:(NSInteger)index;
 
+- (UIView *)viewItemInArrayViewAtIndex:(NSInteger)index;
 
 
 @end

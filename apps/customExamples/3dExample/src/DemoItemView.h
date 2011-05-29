@@ -25,9 +25,10 @@
 @property(nonatomic, assign) NSString* websiteURL;
 @property(nonatomic, assign) NSString* imageURL;
 @property(nonatomic, assign) int wbcDataDescrCount;
+@property(nonatomic, assign) wbcMenu* Menu;
 
 -(void)handleTripleTap;
 -(void)handleDoubleTap;
 -(void)handleSingleTap;
-
+-(void)menuTest:(wbcMenu*) test;
 @end
