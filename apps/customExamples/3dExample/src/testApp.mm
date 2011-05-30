@@ -246,7 +246,6 @@ void testApp::setup()
 	_Menu = new wbcMenu(); // images, text, etc
 	_Menu->linkToGui(activeGui->mGlobals);
 	_Menu->loadResources(activeGui->mGlobals);
-	
 	//	_Menu->transitionTo(WBC_Scene_Menu);
 	
 #pragma mark - Load Interactive scene (previously called engine)

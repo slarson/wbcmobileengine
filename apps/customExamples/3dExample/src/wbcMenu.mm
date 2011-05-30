@@ -121,7 +121,11 @@ void wbcMenu::enableAllElements()
 		//		{
 		//			tempObject->update();
 		//		}
+		
 	}
+	
+	[_arrayView hide:NO];
+	[_arrayView interact:YES];
 }
 
 void wbcMenu::linkToGui(ofxGuiGlobals* guiPtr)
@@ -348,8 +352,7 @@ bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
 				
 				mItems.push_back(tempElement);
 				[_arrayView insert:path];
-				DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
-				[temp menuTest:this];
+				setupItemInArrayView();
 			}
 												
 			else {
@@ -559,8 +562,7 @@ bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
 			
 			mItems.push_back(tempElement);
 			[_arrayView insert:path];
-			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
-			[temp menuTest:this];
+			setupItemInArrayView();
 		}
 		else {
 			
@@ -712,8 +714,7 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 			
 			mItems.push_back(tempElement);		
 			[_arrayView insert:path];
-			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
-			[temp menuTest:this];
+			setupItemInArrayView();
 		}
 		else {
 			
@@ -1351,8 +1352,7 @@ bool wbcMenu::loadZebraFish(int _count)
 			tempElement->elementData->bHasMetaData = true;
 			
 			[_arrayView insert:path];
-			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
-			[temp menuTest:this];
+			setupItemInArrayView();
 		}
 		
 		mItems.push_back(tempElement);
@@ -1480,8 +1480,7 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _count)
 			}
 			
 			[_arrayView insert:path];
-			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
-			[temp menuTest:this];
+			setupItemInArrayView();
 		}
 		
 		mItems.push_back(tempElement);
@@ -1579,8 +1578,7 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _startIndex, int _count)
 			}
 			
 			[_arrayView insert:path];
-			DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:([_arrayView.itemURLs count]-1)];
-			[temp menuTest:this];
+			setupItemInArrayView();
 		}
 		
 		mItems.push_back(tempElement);
@@ -1726,14 +1724,16 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 		case WBC_Scene_Menu:
 			
 			[_arrayView hide:NO];
-			[_arrayView interact:NO];
+			[_arrayView interact:YES];
 			
 			for (int i = 0; i < mItems.size(); i++) {
 				wbcDynamicElement* tempObject = mItems.at(i);
 				
 				tempObject->enabled = true;
 				tempObject->enableTouchEvents();
-				tempObject->animateXYandScale(mGrid.getPositionForIndex(i), mGrid.getSize(), 0.11, 0);
+				tempObject->animateXYandScale(ofxPoint2f(mDescriptionPosition.x-200, mDescriptionPosition.y), 
+																			mDescriptionSize, 1.0, 0);
+				//tempObject->animateXYandScale(mGrid.getPositionForIndex(i), mGrid.getSize(), 0.11, 0);
 				
 			}
 			break;
@@ -1750,7 +1750,7 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 				if (tempObject->bIsSelected) {
 					
 					tempObject->elementData->populate(); // calls appropriate method to request data
-					//tempObject->setPos(mDescriptionPosition.x, mDescriptionPosition.y);
+					//tempObject->setPosition(mDescriptionPosition.x, mDescriptionPosition.y);
 					//tempObject->setSize(mDescriptionSize.x, mDescriptionSize.y);
 					tempObject->animateXYandScale(mDescriptionPosition, mDescriptionSize, 0.11, 0);
 					tempObject->enabled = true;
@@ -1809,8 +1809,12 @@ wbcDynamicElement*	wbcMenu::getSelectedItem()
 	return NULL;
 }
 
-
-
+void wbcMenu::setupItemInArrayView()
+{
+	DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:(_arrayView.itemCount-1)];
+	temp.Menu = this;
+	temp.Globals = mGlobals;
+}
 
 #pragma mark -
 #pragma mark Drawing
@@ -1857,7 +1861,7 @@ void wbcMenu::drawBaseMenu()
 			if (tempObject->enabled && !tempObject->bIsSelected) {
 				
 				//tempObject->update();
-				tempObject->draw();
+				//tempObject->draw();
 				
 			}
 		}
@@ -1869,7 +1873,7 @@ void wbcMenu::drawBaseMenu()
 		
 		wbcDynamicElement* tempObject = getSelectedItem();
 		if (tempObject) {
-			tempObject->draw();			
+			//tempObject->draw();			
 		}
 	}
 	
@@ -1890,7 +1894,7 @@ void wbcMenu::drawBaseMenu()
 			if (tempObject->enabled && !tempObject->bIsSelected) {
 				
 				//tempObject->update();
-				tempObject->draw();
+				//tempObject->draw();
 				
 			}
 		}
@@ -1902,7 +1906,7 @@ void wbcMenu::drawBaseMenu()
 		
 		wbcDynamicElement* tempObject = getSelectedItem();
 		if (tempObject) {
-			tempObject->draw();			
+			//tempObject->draw();			
 		}
 	}
 }
@@ -1929,14 +1933,13 @@ void wbcMenu::drawDetailMenu()
 		for (int i = 0; i < mItems.size(); i++) {
 			wbcDynamicElement* tempObject = mItems.at(i);
 			if (tempObject->enabled && !tempObject->bIsSelected) {
-				tempObject->draw();
+				//tempObject->draw();
 			}
 		}
 		
 		ofSetColor(0xFFFFFF);
 		wbcDynamicElement* tempObject = getSelectedItem();
 		if (tempObject) {
-			printf("drawing the selected object");
 			
 			tempObject->draw();
 			

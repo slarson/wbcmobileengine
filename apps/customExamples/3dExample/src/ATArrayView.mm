@@ -41,7 +41,6 @@
 		_itemURLs = [[NSMutableArray alloc] initWithCapacity:0];
 	
 		[self setup];
-		[self reloadData];
 		[self hide:YES];
 		[self interact:NO];
 	
@@ -117,28 +116,53 @@ awakeFromNib is called instead of initWithFrame */
 }
 
 - (void)insert:(NSString *)path {
-	[_itemURLs addObject:path];
+	//[_itemURLs addObject:path];
+	UIImage* image = [[UIImage alloc] initWithContentsOfFile:path];
+	DemoItemView *itemView = [[[DemoItemView alloc] initWithImage:image] autorelease];
+	itemView.tag = _itemCount;
 	
+	[self recycleItem:itemView];
+	printf("added itemView with index:%d to recycled items\n", itemView.tag);
 	[self reloadData];
 }
 #pragma mark -
 #pragma mark Data
 
 - (void)reloadData {
-	_itemCount = [_itemURLs count];
+	_itemCount = _itemCount+1;
 	[self layoutSubviews];
 	
-    // recycle all items
-	/*for (UIView *view in _visibleItems) {
-        [self recycleItem:view];
-    }
-    [_visibleItems removeAllObjects];*/
-
-    [self configureItems:NO];
+	[self configureItems:NO];
 }
 
 #pragma mark -
 #pragma mark Item Views
+- (UIView *)viewItemInArrayViewAtIndex:(NSInteger)index {
+
+	//printf("getting item to add Menu:\n");
+	
+	for (UIView *item in _visibleItems)
+	{
+		if (item.tag == index)
+			return item;
+	}
+	
+	//printf("brainmaps item not visible\n");
+	
+	for (UIView *item in _recycledItems)
+	{
+		if (index > 23)
+		{
+			printf("item tag in recycledItems:%d\n", item.tag);
+		}
+		if (item.tag == index)
+			return item;
+	}
+	
+	//printf("brainmaps item not recycled\n");
+	
+	return nil;
+}
 
 - (UIView *)viewForItemAtIndex:(NSUInteger)index {
     for (UIView *item in _visibleItems)
@@ -151,8 +175,12 @@ awakeFromNib is called instead of initWithFrame */
 	//has this index been created before?
 	DemoItemView *itemView = (DemoItemView *) [self dequeueReusableItem:index];
 	
-	//has not, need to create it
+	/*//has not, need to create it
 	if (itemView == nil) {
+		if (index > 23) 
+		{
+			printf("Brain maps not in recycled items\n");
+		}
 		UIImage* image;
 		if (index < [_itemURLs count]) {
 			NSString *str = [_itemURLs objectAtIndex:index];
@@ -161,26 +189,11 @@ awakeFromNib is called instead of initWithFrame */
 			itemView = [[[DemoItemView alloc] initWithImage:image] autorelease];
 			itemView.tag = index;
 		}
-	}
+	}*/
 	
 	return itemView;
 }
 
-- (UIView *)viewItemInArrayViewAtIndex:(NSInteger)index {
-	for (UIView *item in _visibleItems)
-	{
-		if (item.tag == index)
-			return item;
-	}
-	
-	for (UIView *item in _recycledItems)
-	{
-		if (item.tag == index)
-			return item;
-	}
-	
-	return nil;
-}
 - (void)configureItems:(BOOL)reconfigure {
     // update content size if needed
     CGSize contentSize = CGSizeMake(self.bounds.size.width,
@@ -208,7 +221,7 @@ awakeFromNib is called instead of initWithFrame */
     for (int index = firstItem; index <= lastItem; index++) {
         UIView *item = [self viewForItemAtIndex:index];
 			if (item == nil) {
-				item = [self viewForItemInArrayView:index];
+				item = (DemoItemView *)[self dequeueReusableItem:index];
 
 				[_scrollView addSubview:item];
 				[_visibleItems addObject:item];

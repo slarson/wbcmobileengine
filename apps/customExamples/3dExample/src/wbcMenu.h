@@ -95,6 +95,7 @@ public:
 	void			disableAllElements();
 	void			enableAllElements();
 	
+	void			setupItemInArrayView();
 	
 	
 	void			scaleGrid(float _scale);

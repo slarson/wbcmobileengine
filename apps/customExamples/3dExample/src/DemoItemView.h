@@ -4,10 +4,10 @@
 
 #import <UIKit/UIKit.h>
 #include "wbcMenu.h"
+#include "ofxGuiGlobals.h"
 
 @interface DemoItemView : UIImageView {
 	bool isCenterSet;
-	bool _isSelected;
 	CGPoint cent;
 	
 	NSString*	m_title;				// name that gets displayed
@@ -18,17 +18,16 @@
 	int _wbcDataDescrCount;
 	
 	wbcMenu* _Menu;
+	ofxGuiGlobals*			_Globals;
 }
-
-@property(nonatomic, assign) bool isSelected;
 @property(nonatomic, assign) NSString* _title;
 @property(nonatomic, assign) NSString* websiteURL;
 @property(nonatomic, assign) NSString* imageURL;
 @property(nonatomic, assign) int wbcDataDescrCount;
 @property(nonatomic, assign) wbcMenu* Menu;
+@property(nonatomic, assign) ofxGuiGlobals* Globals;
 
 -(void)handleTripleTap;
 -(void)handleDoubleTap;
 -(void)handleSingleTap;
--(void)menuTest:(wbcMenu*) test;
 @end

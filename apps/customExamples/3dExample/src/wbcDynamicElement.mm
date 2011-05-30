@@ -507,13 +507,13 @@ void wbcDynamicElement::onDoubleTap(int x, int y, int button)
 		
 		if (bIsSelected) {
 			printf("Displaying object: %s\n", title.c_str());
-			mGlobals->mTap.play();
+			//mGlobals->mTap.play();
 			mGlobals->mListener->handleGui(parameterID, 2, nil, 0);	
 			
 		}
 		else {
 			printf("Selected object: %s\n", title.c_str());
-			mGlobals->mTap.play();
+			//mGlobals->mTap.play();
 			
 			bIsSelected = true;
 			mGlobals->mListener->handleGui(parameterID, 0, nil, 0);			
