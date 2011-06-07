@@ -739,8 +739,8 @@ void testApp::handleGui(int parameterId, int task, void* data, int length)
 				// back button pressed
 				
 				
-				_Menu->transitionTo(WBC_Scene_Description);
-				currentScene = WBC_Scene_Description;
+				_Menu->transitionTo(WBC_Scene_Menu);
+				currentScene = WBC_Scene_Menu;
 				
 				_homeButton->enabled = false;
 				_homeButton->bIsSelected = false;

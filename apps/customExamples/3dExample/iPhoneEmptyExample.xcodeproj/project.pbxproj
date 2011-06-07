@@ -82,6 +82,8 @@
 		ACFF6D4F125FF5D1001D2D91 /* wbcInteractiveScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6D4E125FF5D1001D2D91 /* wbcInteractiveScene.mm */; };
 		ACFF6DBC12611BB1001D2D91 /* wbcGridLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6DBB12611BB1001D2D91 /* wbcGridLayout.mm */; };
 		ACFF6F981261497D001D2D91 /* wbcDataDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6F971261497D001D2D91 /* wbcDataDescription.mm */; };
+		AF1D49EE13887879000F5E34 /* DemoItemView.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF1D49ED13887879000F5E34 /* DemoItemView.mm */; };
+		AF1D49F013887880000F5E34 /* ATArrayView.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF1D49EF13887880000F5E34 /* ATArrayView.mm */; };
 		AF225D361241B1D200B5E44B /* ofxMSAInteractiveObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF225D341241B1D200B5E44B /* ofxMSAInteractiveObject.cpp */; };
 		AFC100001347DF34002E741A /* PocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC1FFF61347DF34002E741A /* PocoNet.a */; };
 		AFC100021347DF34002E741A /* PocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC1FFF81347DF34002E741A /* PocoXML.a */; };
@@ -278,6 +280,10 @@
 		ACFF6DBB12611BB1001D2D91 /* wbcGridLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wbcGridLayout.mm; sourceTree = "<group>"; };
 		ACFF6F961261497D001D2D91 /* wbcDataDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbcDataDescription.h; sourceTree = "<group>"; };
 		ACFF6F971261497D001D2D91 /* wbcDataDescription.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wbcDataDescription.mm; sourceTree = "<group>"; };
+		AF1D49EB13887879000F5E34 /* ATArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATArrayView.h; sourceTree = "<group>"; };
+		AF1D49EC13887879000F5E34 /* DemoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoItemView.h; sourceTree = "<group>"; };
+		AF1D49ED13887879000F5E34 /* DemoItemView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DemoItemView.mm; sourceTree = "<group>"; };
+		AF1D49EF13887880000F5E34 /* ATArrayView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ATArrayView.mm; sourceTree = "<group>"; };
 		AF225D341241B1D200B5E44B /* ofxMSAInteractiveObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxMSAInteractiveObject.cpp; sourceTree = "<group>"; };
 		AF225D351241B1D200B5E44B /* ofxMSAInteractiveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxMSAInteractiveObject.h; sourceTree = "<group>"; };
 		AFC1002D1348015D002E741A /* PocoUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = PocoUtil.a; sourceTree = "<group>"; };
@@ -758,6 +764,7 @@
 		AC7B79FA122B403700E51062 /* ofxWBC */ = {
 			isa = PBXGroup;
 			children = (
+				AF1D49E413887867000F5E34 /* wbcArrayView */,
 				AC8CBCC5122E35D6006C7565 /* ofxWBCdownload */,
 				AC96D80712623C700038B669 /* Menu */,
 				AC96D80812623DA60038B669 /* InteractiveScene */,
@@ -911,6 +918,17 @@
 				AC7B76A3122B105C00E51062 /* MSAShape3D */,
 			);
 			name = "addons-unused";
+			sourceTree = "<group>";
+		};
+		AF1D49E413887867000F5E34 /* wbcArrayView */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D49EB13887879000F5E34 /* ATArrayView.h */,
+				AF1D49EF13887880000F5E34 /* ATArrayView.mm */,
+				AF1D49EC13887879000F5E34 /* DemoItemView.h */,
+				AF1D49ED13887879000F5E34 /* DemoItemView.mm */,
+			);
+			name = wbcArrayView;
 			sourceTree = "<group>";
 		};
 		AF225D2F1241B1B700B5E44B /* ofxColorPicker */ = {
@@ -1406,6 +1424,8 @@
 				ACFF6DBC12611BB1001D2D91 /* wbcGridLayout.mm in Sources */,
 				ACFF6F981261497D001D2D91 /* wbcDataDescription.mm in Sources */,
 				AC96D9231262643D0038B669 /* wbcTileRender.mm in Sources */,
+				AF1D49EE13887879000F5E34 /* DemoItemView.mm in Sources */,
+				AF1D49F013887880000F5E34 /* ATArrayView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1447,6 +1467,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stephen Larson (2MM923M447)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephen Larson (2MM923M447)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1494,6 +1515,7 @@
 					"-w",
 				);
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "104AE128-1CB3-4B3C-BA23-CF3E2EC801B5";
 				SDKROOT = iphoneos;
 			};

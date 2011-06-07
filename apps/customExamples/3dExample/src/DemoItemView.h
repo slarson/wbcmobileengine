@@ -7,27 +7,34 @@
 #include "ofxGuiGlobals.h"
 
 @interface DemoItemView : UIImageView {
-	bool isCenterSet;
 	CGPoint cent;
 	
-	NSString*	m_title;				// name that gets displayed
-	
-	NSString*	m_websiteURL;
-	NSString*	m_imageURL;
-	
-	int _wbcDataDescrCount;
+	int _index;
 	
 	wbcMenu* _Menu;
 	ofxGuiGlobals*			_Globals;
+	
+	int _heirarchy;
+	//NSMutableArray* _elems;
 }
-@property(nonatomic, assign) NSString* _title;
-@property(nonatomic, assign) NSString* websiteURL;
-@property(nonatomic, assign) NSString* imageURL;
-@property(nonatomic, assign) int wbcDataDescrCount;
+//for heirarchy items
+@property(nonatomic, assign) int heirarchy;
+//@property(nonatomic, assign) NSMutableArray* elems;
+
+//general items
+@property(nonatomic, assign) int index;
 @property(nonatomic, assign) wbcMenu* Menu;
 @property(nonatomic, assign) ofxGuiGlobals* Globals;
+
+- (id)initWithImage:(UIImage *)image withHeirarchy:(int)index;
+
+//used for topHeirarchy Item
+- (id)initWithNoImage;
 
 -(void)handleTripleTap;
 -(void)handleDoubleTap;
 -(void)handleSingleTap;
+
+-(void)insert:(UIImageView*)item;
+
 @end

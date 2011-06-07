@@ -225,7 +225,6 @@ bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
 		
 		mXmlDone = false;
 		
-		
 		for (int i = _start; i < _start + _itemsToLoad; i++)
 		{
 			mXml.pushTag("site", i);
@@ -351,8 +350,11 @@ bool wbcMenu::loadCustomSitesIfPresent(bool _withNetwork)
 //				}
 				
 				mItems.push_back(tempElement);
-				[_arrayView insert:path];
-				setupItemInArrayView();
+				
+				if (i == _start)
+					addItemView(path,1,true);
+				
+				addItemView(path,1,false);
 			}
 												
 			else {
@@ -403,7 +405,7 @@ bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
 	// loop through, adding files as needed
 	
 	int tic = ofGetElapsedTimeMillis();
-	
+
 	mXmlFile			= "localData.xml";
 	if(!mXmlDone)
 	{
@@ -561,8 +563,13 @@ bool wbcMenu::loadLocalSites(bool _withNetwork, int _start, int _count)
 //			}
 			
 			mItems.push_back(tempElement);
-			[_arrayView insert:path];
-			setupItemInArrayView();
+
+			if (i == _start)
+			{
+				printf("Doing Local Site\n");
+				addItemView(path,2,true);
+			}
+			addItemView(path,2,false);
 		}
 		else {
 			
@@ -636,7 +643,6 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 	else {
 		_itemsToLoad = _count;
 	}
-	
 	
 	for (int i = _start; i < _start + _itemsToLoad; i++)
 	{
@@ -713,8 +719,13 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 			tempElement->elementData->mDisplayName = tempElement->title;
 			
 			mItems.push_back(tempElement);		
-			[_arrayView insert:path];
-			setupItemInArrayView();
+			
+			if (i == _start)
+			{
+				printf("Doing Brain Maps\n");
+				addItemView(path,3,true);
+			}
+			addItemView(path,3,false);
 		}
 		else {
 			
@@ -731,6 +742,7 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 	}
 	
 	mXml.popTag();
+	
 	mXmlDone = true;
 	int toc = ofGetElapsedTimeMillis() - tic;
 	
@@ -1274,6 +1286,7 @@ bool wbcMenu::loadBrainMapsFromLocalXML(int _start, int _count)
 bool wbcMenu::loadZebraFish(int _count)
 {
 	int tic		= ofGetElapsedTimeMillis();
+	
 	mXmlFile	= "zebrafish.xml";
 	if(!mXmlDone)
 	{ return false; }
@@ -1351,15 +1364,19 @@ bool wbcMenu::loadZebraFish(int _count)
 			tempElement->elementData->mSlideList.push_back(tempslide);
 			tempElement->elementData->bHasMetaData = true;
 			
-			[_arrayView insert:path];
-			setupItemInArrayView();
+			if (i == mItems.size())
+			{
+				printf("Doing ZebraFish\n");
+				addItemView(path,4,true);
+			}
+			addItemView(path,4,false);
 		}
 		
 		mItems.push_back(tempElement);
-
-		
+	
 		mXml.popTag();
 	}
+
 	mXml.popTag();
 	mXmlDone = true;
 	
@@ -1479,8 +1496,13 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _count)
 				tempElement->baseImage.saveImage([path UTF8String]);
 			}
 			
-			[_arrayView insert:path];
-			setupItemInArrayView();
+			if (i == mItems.size())
+			{
+				printf("DoingCCDBZoomify\n");
+				addItemView(path,5,true);
+			}
+			addItemView(path,5,false);
+
 		}
 		
 		mItems.push_back(tempElement);
@@ -1577,8 +1599,12 @@ bool wbcMenu::loadCCDBZoomifiesFromLocalXML(int _startIndex, int _count)
 				tempElement->baseImage.saveImage([path UTF8String]);
 			}
 			
-			[_arrayView insert:path];
-			setupItemInArrayView();
+			if (i == mItems.size())
+			{
+				printf("CCDBZoomifies\n");
+				addItemView(path,5,true);
+			}
+			addItemView(path,5,false);
 		}
 		
 		mItems.push_back(tempElement);
@@ -1729,6 +1755,10 @@ void wbcMenu::transitionTo(wbcScene _sceneMode)
 			for (int i = 0; i < mItems.size(); i++) {
 				wbcDynamicElement* tempObject = mItems.at(i);
 				
+				if (tempObject->bIsSelected) {
+					tempObject->bIsSelected = false;
+				}
+				
 				tempObject->enabled = true;
 				tempObject->enableTouchEvents();
 				tempObject->animateXYandScale(ofxPoint2f(mDescriptionPosition.x-200, mDescriptionPosition.y), 
@@ -1809,11 +1839,35 @@ wbcDynamicElement*	wbcMenu::getSelectedItem()
 	return NULL;
 }
 
-void wbcMenu::setupItemInArrayView()
+void wbcMenu::addItemView(NSString* path, int heirarchyIndex, bool isHeir)
 {
-	DemoItemView* temp = (DemoItemView*)[_arrayView viewItemInArrayViewAtIndex:(_arrayView.itemCount-1)];
-	temp.Menu = this;
-	temp.Globals = mGlobals;
+	UIImage* image = [[[UIImage alloc] initWithContentsOfFile:path] autorelease];
+	DemoItemView *item;
+	
+	if(isHeir)
+	{
+		item = [[[DemoItemView alloc] initWithImage:image withHeirarchy:heirarchyIndex] autorelease];
+	}
+	else {
+		item = [[[DemoItemView alloc] initWithImage:image] autorelease];
+		item.heirarchy = heirarchyIndex;
+	}
+
+	setupItem(item);
+
+	if (isHeir)
+		[_arrayView insert:item withHeirarchyVal:0];
+	
+	else
+		[_arrayView	insert:item withHeirarchyVal:heirarchyIndex];	
+}
+
+void wbcMenu::setupItem(UIImageView* img_view)
+{
+	DemoItemView* item = (DemoItemView*)img_view;
+	item.Menu = this;
+	item.Globals = mGlobals;
+	item.index = mItems.size()-1;
 }
 
 #pragma mark -

@@ -88,7 +88,9 @@ public:
 	int				mBMstartindex;
 	int				mBMcount;
 	
-	
+	void			addItemView(NSString* path, int heirarchyIndex, bool isHeir);
+	void			addHeirarchyItemView(NSString* path);
+	void			setupItem(UIImageView* item);
 	void			set2D();
 	void			drawBaseMenu();
 	void			drawDetailMenu();

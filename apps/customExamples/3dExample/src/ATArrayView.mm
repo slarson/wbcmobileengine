@@ -13,8 +13,6 @@
 
 @end
 
-
-
 @implementation ATArrayView
 
 @synthesize itemSize=_itemSize;
@@ -23,27 +21,35 @@
 @synthesize scrollView=_scrollView;
 @synthesize itemCount=_itemCount;
 @synthesize preloadBuffer=_preloadBuffer;
-@synthesize itemURLs = _itemURLs;
+@synthesize elems = elems;
 
 #pragma mark -
 #pragma mark init/dealloc
 
 - (id)initWithFrame:(CGRect)frame {
+	
     if ((self = [super initWithFrame:frame])) {
         [self setup];
     }
 	
 		_itemCount = 0;
-	
+		//number of different sites we load from, eg. brain maps, ZF, CCDB
+		numHeirarchy = 6;
+		topHeirarchy = 0;
 	
 		_visibleItems = [[NSMutableSet alloc] init];
 		_recycledItems = [[NSMutableSet alloc] init];
-		_itemURLs = [[NSMutableArray alloc] initWithCapacity:0];
+		_elems = [[NSMutableArray alloc] initWithCapacity:0];
 	
 		[self setup];
 		[self hide:YES];
 		[self interact:NO];
 	
+		UISwipeGestureRecognizer *swipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeRight)];
+	  [swipe setDirection:(UISwipeGestureRecognizerDirectionRight)];
+		[self addGestureRecognizer:swipe];
+		[swipe release];
+		
     return self;
 }
 
@@ -61,6 +67,9 @@ awakeFromNib is called instead of initWithFrame */
 	{
 		_itemSize = CGSizeMake(70, 70);
 	}	
+	for (int i = 0; i < numHeirarchy; i++) {
+		[_elems addObject:[[NSMutableArray alloc] initWithCapacity:0]];
+	}
     _minimumColumnGap = 5;
     _preloadBuffer = 0;
     _scrollView = [[UIScrollView alloc] initWithFrame:CGRectZero];
@@ -82,7 +91,7 @@ awakeFromNib is called instead of initWithFrame */
 }
 
 - (void) hide:(BOOL)shouldHide {
-	for( DemoItemView* view in self.subviews )
+	for( UIView* view in self.subviews )
 	{
 			if (shouldHide)
 				[view setHidden:YES];
@@ -99,7 +108,7 @@ awakeFromNib is called instead of initWithFrame */
 }
 
 - (void) interact:(BOOL)canInteract{
-	for( DemoItemView* view in self.subviews )
+	for( UIView* view in self.subviews )
 	{
 		if (canInteract)
 			[view setUserInteractionEnabled:YES];
@@ -115,55 +124,65 @@ awakeFromNib is called instead of initWithFrame */
 	}
 }
 
-- (void)insert:(NSString *)path {
-	//[_itemURLs addObject:path];
+//Should only ever be used by HeirarchyItemViews
+/*- (void)insert:(NSString *)path {
 	UIImage* image = [[UIImage alloc] initWithContentsOfFile:path];
-	DemoItemView *itemView = [[[DemoItemView alloc] initWithImage:image] autorelease];
-	itemView.tag = _itemCount;
+	HeirarchyItemView *itemView = [[[HeirarchyItemView alloc] initWithImage:image] autorelease];
+	itemView.tag = numHeirarchy++; 
 	
-	[self recycleItem:itemView];
-	printf("added itemView with index:%d to recycled items\n", itemView.tag);
+	[_topHeirarchy.slides addObject:itemView];
+	_currentHeirarchy = _topHeirarchy;
+	
+s
 	[self reloadData];
+}*/
+
+
+//insert it into the top heirarchy
+- (void)insert:(UIImageView*)item withHeirarchyVal:(int)index {
+	DemoItemView* subItem = (DemoItemView*)item;
+	subItem.tag = [[_elems objectAtIndex:index] count];
+	[[_elems objectAtIndex:index]	addObject:subItem];
+	
+		//printf("Heirarchy %d list count is %d\n", index, [[_elems objectAtIndex:index] count]);
+	
+	if(index == 0)
+	{
+		[self recycleItem:subItem];
+		[self reloadData:[[_elems objectAtIndex:index] count]];
+	}
 }
+
+- (void)removeAll {
+	[self clearAllVisible];
+	[_recycledItems removeAllObjects];
+}
+- (void)clearAllVisible {
+	for (UIView *view in _visibleItems) {
+		[self recycleItem:view];
+	}
+	[_visibleItems removeAllObjects];
+}
+
+- (void)insertList:(int)index{
+	[self removeAll];
+	[_recycledItems addObjectsFromArray:[_elems objectAtIndex:index]];
+	printf("inserting Heirarchy list %d into ATArrayView with visible count %d and recycled count %d\n", index,[_visibleItems count], [_recycledItems count]);
+	[self reloadData:[_recycledItems count]];
+}
+
 #pragma mark -
 #pragma mark Data
 
-- (void)reloadData {
-	_itemCount = _itemCount+1;
+- (void)reloadData:(NSInteger)count{
+	_itemCount = count;
+
 	[self layoutSubviews];
-	
 	[self configureItems:NO];
 }
 
 #pragma mark -
 #pragma mark Item Views
-- (UIView *)viewItemInArrayViewAtIndex:(NSInteger)index {
-
-	//printf("getting item to add Menu:\n");
-	
-	for (UIView *item in _visibleItems)
-	{
-		if (item.tag == index)
-			return item;
-	}
-	
-	//printf("brainmaps item not visible\n");
-	
-	for (UIView *item in _recycledItems)
-	{
-		if (index > 23)
-		{
-			printf("item tag in recycledItems:%d\n", item.tag);
-		}
-		if (item.tag == index)
-			return item;
-	}
-	
-	//printf("brainmaps item not recycled\n");
-	
-	return nil;
-}
-
 - (UIView *)viewForItemAtIndex:(NSUInteger)index {
     for (UIView *item in _visibleItems)
         if (item.tag == index)
@@ -172,24 +191,7 @@ awakeFromNib is called instead of initWithFrame */
 }
 
 - (UIView *)viewForItemInArrayView:(NSInteger)index {
-	//has this index been created before?
 	DemoItemView *itemView = (DemoItemView *) [self dequeueReusableItem:index];
-	
-	/*//has not, need to create it
-	if (itemView == nil) {
-		if (index > 23) 
-		{
-			printf("Brain maps not in recycled items\n");
-		}
-		UIImage* image;
-		if (index < [_itemURLs count]) {
-			NSString *str = [_itemURLs objectAtIndex:index];
-						 
-			image = [[UIImage alloc] initWithContentsOfFile:str];
-			itemView = [[[DemoItemView alloc] initWithImage:image] autorelease];
-			itemView.tag = index;
-		}
-	}*/
 	
 	return itemView;
 }
@@ -311,14 +313,14 @@ awakeFromNib is called instead of initWithFrame */
 			return item;
 	}
 	return nil;
-	
-    /*UIView *result = [_recycledItems anyObject];
-    if (result) {
-        [_recycledItems removeObject:[[result retain] autorelease]];
-    }
-    return result;*/
 }
 
+#pragma mark -
+#pragma mark Swipe recongition 
+- (void)handleSwipeRight {
+	printf("handling swipe\n");
+	[self insertList:0];
+}
 
 #pragma mark -
 #pragma mark UIScrollViewDelegate methods
@@ -326,5 +328,6 @@ awakeFromNib is called instead of initWithFrame */
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     [self configureItems:NO];
 }
+
 
 @end

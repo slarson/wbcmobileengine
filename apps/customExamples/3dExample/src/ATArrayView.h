@@ -19,7 +19,7 @@
     NSInteger       _itemCount;
     NSMutableSet   *_recycledItems;
     NSMutableSet   *_visibleItems;
-		NSMutableArray	*_itemURLs;
+		NSMutableArray	*_elems;
 
     // geometry
     NSInteger       _colCount;
@@ -28,6 +28,8 @@
     CGFloat         _colGap;
     UIEdgeInsets    _effectiveInsets;
 	
+		int							numHeirarchy;
+	int							topHeirarchy;
 }
 
 /* Depending on memory, I you can use the preload buffer to buffer additional rows that
@@ -52,16 +54,22 @@ This allows for smoother scrolling and minimizing 'jerkyness' when loading netwo
 
 @property(nonatomic, readonly) NSInteger lastVisibleItemIndex;
 
-@property(nonatomic, assign)NSMutableArray* itemURLs;
+@property(nonatomic, assign)NSMutableArray* elems;
 
 
 - (void)hide:(BOOL)shouldHide;
 
 - (void)interact:(BOOL)canInteract;
 
-- (void)insert:(NSString *)path;
+- (void)insert:(UIImageView*)item withHeirarchyVal:(int)index;
 
-- (void)reloadData;  // must be called at least once to display something
+- (void)insertList:(int) index;
+
+- (void)clearAllVisible;
+
+- (void)removeAll;
+
+- (void)reloadData:(NSInteger)count;  // must be called at least once to display something
 
 - (UIView *)viewForItemAtIndex:(NSUInteger)index;  // nil if not loaded
 
@@ -71,8 +79,7 @@ This allows for smoother scrolling and minimizing 'jerkyness' when loading netwo
 
 - (UIView *)viewForItemInArrayView:(NSInteger)index;
 
-- (UIView *)viewItemInArrayViewAtIndex:(NSInteger)index;
-
+- (void)handleSwipeRight;
 
 @end
 
